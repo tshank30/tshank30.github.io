@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tshank30.github.io/FastCleaner/sitemap.xml
