@@ -1,0 +1,214 @@
+/* =========================
+   Fast Cleaner — style.css (centered hero)
+   ========================= */
+
+:root{
+  --bg:#f8fafc;--surface:#ffffff;--text:#0f172a;--muted:#475569;--line:#e5e7eb;
+  --brand:#752de0;--brand2:#8c4bc9;--radius:18px;--shadow:0 18px 60px rgba(2,6,23,.10);
+}
+
+*{box-sizing:border-box}
+html,body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+  scroll-padding-top: 76px; /* avoid sticky header overlap on anchor jumps */
+}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;height:auto;display:block}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+/* ===== Header ===== */
+header{
+  position:sticky;top:0;background:rgba(255,255,255,.95);
+  backdrop-filter:saturate(120%) blur(8px);
+  border-bottom:1px solid var(--line);z-index:50
+}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:10px;align-items:center}
+.brand img{width:36px;height:36px;border-radius:10px}
+.brand h1{font-size:18px;margin:0;font-weight:800}
+.menu{display:flex;gap:28px;align-items:center}
+.menu a{color:#475569;font-weight:600;opacity:.9}
+.menu a:hover{opacity:1}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  background:linear-gradient(135deg,var(--brand),var(--brand2));
+  color:#fff;padding:12px 16px;border-radius:12px;font-weight:700;
+  box-shadow:0 10px 30px rgba(117,45,224,.35)
+}
+.btn.outline{background:#fff;color:var(--brand);border:1px solid #e9d5ff;box-shadow:none}
+
+/* ===== HERO (centered on desktop) ===== */
+/* Works with either .hero .wrap or .hero-wrap grid containers */
+.hero{
+  /* full viewport minus sticky header height for visual balance */
+  min-height: calc(100dvh - 72px);
+  padding-top: 24px;            /* modest padding; centering does the rest */
+  padding-bottom: 24px;
+  overflow: visible;
+}
+.hero .wrap, .hero-wrap{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:36px;
+  align-items:center;           /* vertical center BOTH columns */
+}
+.kicker{
+  display:inline-flex;gap:8px;align-items:center;background:#f5f3ff;color:#4c1d95;
+  border:1px solid #e9d5ff;border-radius:999px;padding:8px 12px;font-size:13px;font-weight:700;
+  margin-top:0;
+}
+.title{font-size:52px;line-height:1.02;margin:14px 0 10px}
+.subtitle{font-size:18px;color:var(--muted)}
+
+/* Right-side visual */
+.phone{ align-self:center; position:relative; aspect-ratio:9/19; }
+.device{
+  position:absolute;right:0;width:min(360px,100%);border-radius:26px;
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,#fff,#f6f7fb);box-shadow:var(--shadow);
+  transform:rotate(-6deg)
+}
+.device.secondary{
+  transform:rotate(6deg) translate(-70px,40px);
+  opacity:.95;z-index:-1
+}
+.device img{display:block;width:100%;border-radius:24px}
+
+/* ===== Trust strip ===== */
+.strip{background:#fafafa;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip .items{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;padding:18px 0}
+.pill{
+  display:flex;align-items:center;justify-content:center;gap:8px;background:#fff;border:1px solid var(--line);
+  border-radius:999px;padding:10px 14px;font-weight:700
+}
+
+/* ===== Sections / cards / gallery ===== */
+.section{padding:70px 0}
+h2{font-size:36px;margin:0 0 12px}
+.muted{color:var(--muted)}
+.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}
+.card img{width:100%;border-radius:14px;display:block}
+.caption{font-weight:700;margin:10px 0 6px}
+.small{color:var(--muted);font-size:14px;margin:0}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.gallery .card{padding:12px}
+
+/* ===== FAQ ===== */
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px}
+summary{cursor:pointer;font-weight:700}
+
+/* ===== CTA band + footer ===== */
+.cta-band{background:linear-gradient(135deg,#f5f3ff,#ffffff);border-top:1px solid var(--line)}
+footer{padding:50px 0;border-top:1px solid var(--line);color:#64748b;font-size:14px}
+.links{display:flex;gap:18px;flex-wrap:wrap}
+
+/* ===== Responsive ===== */
+@media(max-width:1000px){
+  .menu{display:none}
+  .hero{
+    /* revert to natural flow so nothing gets pushed off-screen */
+    min-height:auto;
+    padding-top:28px;
+    padding-bottom:40px;
+  }
+  .hero .wrap, .hero-wrap{grid-template-columns:1fr;gap:26px;align-items:start}
+  .phone{ align-self:start; height:520px }     /* explicit height keeps layout tidy */
+  .device{ left:50%; transform:translateX(-20%) rotate(-6deg) }
+  .device.secondary{ left:50%; transform:translateX(-80%) rotate(6deg) }
+  .title{font-size:40px}
+  .grid-3,.gallery{grid-template-columns:1fr}
+  .strip .items{grid-template-columns:1fr 1fr}
+}
+
+/* === Responsive header / nav === */
+.menu{
+  display:flex;
+  gap:18px;
+  align-items:center;
+}
+
+.nav-toggle{
+  display:none;
+}
+
+.nav-toggle-label{
+  display:none;
+}
+
+.nav-cta{
+  white-space:nowrap;
+}
+
+/* Mobile nav */
+@media (max-width: 768px){
+  .nav{
+    height:64px;
+    gap:8px;
+  }
+  .brand h1{
+    display:none;
+  }
+  .nav-toggle-label{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:36px;
+    height:36px;
+    border-radius:999px;
+    border:1px solid var(--line);
+    margin-left:auto;
+    margin-right:8px;
+    cursor:pointer;
+    background:rgba(255,255,255,0.9);
+  }
+  .nav-toggle-label span,
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after{
+    display:block;
+    width:16px;
+    height:2px;
+    border-radius:999px;
+    background:#0f172a;
+    position:relative;
+  }
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after{
+    content:"";
+    position:absolute;
+    left:0;
+  }
+  .nav-toggle-label span::before{
+    top:-5px;
+  }
+  .nav-toggle-label span::after{
+    top:5px;
+  }
+  .menu{
+    position:absolute;
+    top:64px;
+    left:0;
+    right:0;
+    background:#ffffff;
+    flex-direction:column;
+    gap:12px;
+    padding:12px 20px 16px;
+    border-bottom:1px solid var(--line);
+    box-shadow:0 12px 30px rgba(15,23,42,0.08);
+    display:none;
+    z-index:40;
+  }
+  .menu a{
+    padding:4px 0;
+    color:var(--muted);
+    font-weight:600;
+  }
+  .nav-toggle:checked ~ .menu{
+    display:flex;
+  }
+  .nav-cta{
+    font-size:14px;
+    padding:10px 14px;
+  }
+}
