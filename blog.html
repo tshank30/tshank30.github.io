@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog — Fast Cleaner | iPhone Storage Tips & Guides</title>
+  <meta name="description" content="Expert tips and guides on managing iPhone storage, cleaning duplicate photos, compressing videos, and freeing up space on your device." />
+  <link rel="icon" href="assets/icon.webp" />
+  <meta property="og:title" content="Fast Cleaner Blog — iPhone Storage Tips & Guides" />
+  <meta property="og:description" content="Learn how to free up iPhone storage, delete duplicates, and optimize your device with our expert guides." />
+  <meta property="og:image" content="assets/icon.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://tshank30.github.io/FastCleaner/blog.html" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Fast Cleaner Blog",
+    "description": "Expert tips and guides on managing iPhone storage",
+    "url": "https://tshank30.github.io/FastCleaner/blog.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Fast Cleaner",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://tshank30.github.io/FastCleaner/assets/icon.webp"
+      }
+    }
+  }
+  </script>
+  <style>
+    .blog-hero { 
+      background: linear-gradient(135deg, #f5f3ff 0%, #ffffff 100%); 
+      padding: 60px 0; 
+      border-bottom: 1px solid var(--line); 
+    }
+    .blog-hero h1 { font-size: 42px; margin: 0 0 12px; }
+    .blog-hero p { font-size: 18px; color: var(--muted); margin: 0; max-width: 600px; }
+    
+    .blog-grid { 
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 28px; 
+      margin-top: 32px; 
+    }
+    
+    .blog-card { 
+      background: var(--surface); 
+      border: 1px solid var(--line); 
+      border-radius: var(--radius); 
+      overflow: hidden; 
+      transition: all 0.25s ease;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+    .blog-card:hover { 
+      transform: translateY(-6px); 
+      box-shadow: 0 24px 48px rgba(117,45,224,0.12);
+      border-color: #e9d5ff;
+    }
+    
+    .blog-card-image {
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .blog-card-image.guide { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); }
+    .blog-card-image.tutorial { background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); }
+    .blog-card-image.troubleshooting { background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%); }
+    
+    .blog-card-icon {
+      font-size: 56px;
+      opacity: 0.9;
+    }
+    
+    .blog-card-content { 
+      padding: 24px; 
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .blog-card .tag { 
+      display: inline-block;
+      padding: 5px 12px; 
+      border-radius: 999px; 
+      font-size: 11px; 
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 14px;
+      width: fit-content;
+    }
+    .blog-card .tag.guide { background: #fef3c7; color: #92400e; }
+    .blog-card .tag.tutorial { background: #dbeafe; color: #1e40af; }
+    .blog-card .tag.troubleshooting { background: #fee2e2; color: #991b1b; }
+    
+    .blog-card h3 { 
+      margin: 0 0 12px; 
+      font-size: 20px; 
+      line-height: 1.35;
+      color: var(--text);
+    }
+    .blog-card:hover h3 {
+      color: var(--brand);
+    }
+    
+    .blog-card .excerpt { 
+      color: var(--muted); 
+      font-size: 15px; 
+      line-height: 1.6;
+      margin: 0 0 16px;
+      flex: 1;
+    }
+    
+    .blog-card .meta { 
+      font-size: 13px; 
+      color: var(--muted); 
+      display: flex; 
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+    }
+    .blog-card .meta-left {
+      display: flex;
+      gap: 16px;
+    }
+    .blog-card .meta span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .blog-card .read-more {
+      color: var(--brand);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: gap 0.2s;
+    }
+    .blog-card:hover .read-more {
+      gap: 8px;
+    }
+    
+    @media (max-width: 768px) {
+      .blog-grid { grid-template-columns: 1fr; gap: 20px; }
+      .blog-hero h1 { font-size: 32px; }
+      .blog-hero { padding: 40px 0; }
+      .blog-card-image { height: 140px; }
+      .blog-card-icon { font-size: 48px; }
+      .blog-card h3 { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="assets/icon.webp" alt="Fast Cleaner app icon" />
+        <h1>Fast Cleaner</h1>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <nav class="menu">
+        <a href="index.html#features">Features</a>
+        <a href="blog.html" style="color: var(--brand);">Blog</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+
+      <a class="btn nav-cta" href="https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167" target="_blank" rel="noopener" style="color:#ffffff;">
+        Get the App →
+      </a>
+    </div>
+  </header>
+
+  <section class="blog-hero">
+    <div class="container">
+      <h1>iPhone Storage Tips & Guides</h1>
+      <p>Expert advice on managing your iPhone storage, cleaning up photos, and keeping your device running smoothly.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="blog-grid">
+        
+        <a href="blog/how-to-free-up-iphone-storage.html" class="blog-card">
+          <div class="blog-card-image guide">
+            <span class="blog-card-icon">📱</span>
+          </div>
+          <div class="blog-card-content">
+            <span class="tag guide">Guide</span>
+            <h3>How to Free Up Storage on iPhone: 10 Proven Methods</h3>
+            <p class="excerpt">Running out of iPhone storage? Learn the most effective ways to reclaim space and keep your device running smoothly.</p>
+            <div class="meta">
+              <div class="meta-left">
+                <span>📖 8 min read</span>
+                <span>📅 Feb 2026</span>
+              </div>
+              <span class="read-more">Read →</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="blog/delete-duplicate-photos-iphone.html" class="blog-card">
+          <div class="blog-card-image tutorial">
+            <span class="blog-card-icon">🖼️</span>
+          </div>
+          <div class="blog-card-content">
+            <span class="tag tutorial">Tutorial</span>
+            <h3>How to Find and Delete Duplicate Photos on iPhone</h3>
+            <p class="excerpt">Duplicate photos silently consume gigabytes of storage. Here's how to find and remove them quickly.</p>
+            <div class="meta">
+              <div class="meta-left">
+                <span>📖 6 min read</span>
+                <span>📅 Feb 2026</span>
+              </div>
+              <span class="read-more">Read →</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="blog/compress-videos-iphone.html" class="blog-card">
+          <div class="blog-card-image tutorial">
+            <span class="blog-card-icon">🎬</span>
+          </div>
+          <div class="blog-card-content">
+            <span class="tag tutorial">Tutorial</span>
+            <h3>How to Compress Videos on iPhone Without Losing Quality</h3>
+            <p class="excerpt">Large video files eating up your storage? Learn how to compress them while maintaining visual quality.</p>
+            <div class="meta">
+              <div class="meta-left">
+                <span>📖 5 min read</span>
+                <span>📅 Feb 2026</span>
+              </div>
+              <span class="read-more">Read →</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="blog/iphone-storage-full.html" class="blog-card">
+          <div class="blog-card-image troubleshooting">
+            <span class="blog-card-icon">🔧</span>
+          </div>
+          <div class="blog-card-content">
+            <span class="tag troubleshooting">Troubleshooting</span>
+            <h3>iPhone Storage Full? Here's What's Taking Up Space</h3>
+            <p class="excerpt">Understand what's consuming your iPhone storage and get actionable solutions to fix it fast.</p>
+            <div class="meta">
+              <div class="meta-left">
+                <span>📖 7 min read</span>
+                <span>📅 Feb 2026</span>
+              </div>
+              <span class="read-more">Read →</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band section" style="padding-top:40px;padding-bottom:40px">
+    <div class="container">
+      <div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+        <div>
+          <h2 style="margin:0">Clean up your iPhone in minutes</h2>
+          <p class="muted" style="margin:6px 0 0">Download Fast Cleaner and free up gigabytes of storage today.</p>
+        </div>
+        <a class="btn" href="https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167" target="_blank" rel="noopener">Get Fast Cleaner</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap">
+      <div>© 2026 Fast Cleaner. All rights reserved.</div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:tshank30@gmail.com">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
