@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Remove Similar Photos on iPhone — Find Near-Duplicate Images | Fast Cleaner</title>
+  <meta name="description" content="Remove similar photos on iPhone that aren't exact duplicates. AI finds near-identical images, burst shots, and multiple angles. Free iPhone photo cleaner." />
+  <link rel="icon" href="assets/icon.webp" />
+  <meta property="og:title" content="Remove Similar Photos on iPhone — Fast Cleaner" />
+  <meta property="og:description" content="AI-powered tool to find and remove similar photos that aren't exact duplicates. Clean burst shots and near-identical images." />
+  <meta property="og:image" content="https://tshank30.github.io/FastCleaner/assets/icon.webp" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tshank30.github.io/FastCleaner/remove-similar-photos-iphone.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://tshank30.github.io/FastCleaner/remove-similar-photos-iphone.html" />
+  <link rel="stylesheet" href="style.css" />
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Fast Cleaner - Similar Photo Remover",
+    "operatingSystem": "iOS",
+    "applicationCategory": "UtilitiesApplication",
+    "description": "AI-powered similar photo remover for iPhone. Find and delete near-identical images, burst shots, and multiple angles of the same scene.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "2000000" },
+    "downloadUrl": "https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167"
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I remove similar photos on iPhone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To remove similar photos on iPhone, use Fast Cleaner: 1) Download from App Store, 2) Open and tap 'Find Duplicates', 3) The AI groups similar photos together, 4) Select which versions to delete, 5) Tap Clean. Unlike iPhone's built-in feature, Fast Cleaner finds similar photos, not just exact duplicates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can iPhone detect similar photos that aren't exact duplicates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, iPhone's built-in Duplicates album only finds exact pixel-perfect copies. It won't detect similar photos like burst shots, multiple angles of the same subject, or nearly-identical images. You need an AI-powered app like Fast Cleaner to find these similar photos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the difference between duplicate and similar photos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Duplicate photos are exact copies — the same image saved twice. Similar photos are different images that look nearly identical, like 10 shots of the same sunset taken seconds apart, or burst photos where you moved slightly between shots. Similar photos often waste more storage than true duplicates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Fast Cleaner find similar photos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fast Cleaner uses on-device AI with perceptual hashing to analyze the visual content of each photo. It compares colors, shapes, and composition to identify photos that look similar even if they're not pixel-perfect matches. All processing happens locally on your iPhone."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .landing-hero { background: linear-gradient(135deg, #dbeafe 0%, #ffffff 100%); padding: 80px 0 60px; }
+    .landing-hero h1 { font-size: 48px; margin: 0 0 20px; line-height: 1.1; max-width: 700px; }
+    .landing-hero .subtitle { font-size: 20px; color: var(--muted); margin: 0 0 28px; max-width: 600px; }
+    .landing-hero .cta-group { display: flex; gap: 14px; flex-wrap: wrap; }
+    .trust-badges { display: flex; gap: 24px; margin-top: 32px; flex-wrap: wrap; }
+    .trust-badge { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); }
+    .trust-badge svg { width: 20px; height: 20px; color: #22c55e; }
+    .landing-section { padding: 70px 0; }
+    .landing-section.alt { background: #fafafa; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .landing-section h2 { font-size: 36px; margin: 0 0 16px; }
+    .landing-section .lead { font-size: 18px; color: var(--muted); margin: 0 0 32px; max-width: 700px; }
+    .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .feature-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; }
+    .feature-card h3 { font-size: 20px; margin: 0 0 10px; }
+    .feature-card p { color: var(--muted); margin: 0; line-height: 1.6; }
+    .feature-icon { width: 48px; height: 48px; background: linear-gradient(135deg, #dbeafe, #bfdbfe); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; font-size: 24px; }
+    .example-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
+    .example-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; }
+    .example-card h3 { font-size: 20px; margin: 0 0 12px; display: flex; align-items: center; gap: 10px; }
+    .example-card p { color: var(--muted); margin: 0; line-height: 1.6; }
+    .how-it-works { counter-reset: step; }
+    .step { display: flex; gap: 24px; margin-bottom: 32px; align-items: flex-start; }
+    .step-number { counter-increment: step; width: 48px; height: 48px; background: var(--brand); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 20px; flex-shrink: 0; }
+    .step-number::before { content: counter(step); }
+    .step-content h3 { margin: 0 0 8px; font-size: 20px; }
+    .step-content p { margin: 0; color: var(--muted); line-height: 1.6; }
+    .faq-section { max-width: 800px; }
+    .faq-section details { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 12px; }
+    .faq-section summary { cursor: pointer; font-weight: 700; font-size: 17px; list-style: none; }
+    .faq-section summary::-webkit-details-marker { display: none; }
+    .faq-section details p { margin: 14px 0 0; line-height: 1.7; color: var(--muted); }
+    .final-cta { background: linear-gradient(135deg, var(--brand), var(--brand2)); padding: 60px 0; text-align: center; color: #fff; }
+    .final-cta h2 { color: #fff; margin: 0 0 12px; }
+    .final-cta p { opacity: 0.9; margin: 0 0 24px; font-size: 18px; }
+    .final-cta .btn { background: #fff; color: var(--brand); }
+    @media (max-width: 768px) {
+      .landing-hero h1 { font-size: 32px; }
+      .feature-grid, .example-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="assets/icon.webp" alt="Fast Cleaner app icon" />
+        <h1>Fast Cleaner</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+      <nav class="menu">
+        <a href="index.html#features">Features</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+      <a class="btn nav-cta" href="https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167" target="_blank" rel="noopener" style="color:#ffffff;">Get the App →</a>
+    </div>
+  </header>
+
+  <section class="landing-hero">
+    <div class="container">
+      <h1>Remove Similar Photos on iPhone</h1>
+      <p class="subtitle">Find and delete near-duplicate photos that Apple's built-in feature misses. AI-powered detection for burst shots, multiple angles, and nearly-identical images.</p>
+      <div class="cta-group">
+        <a class="btn" href="https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167" target="_blank" rel="noopener">Download Free on App Store</a>
+        <a class="btn outline" href="#examples">See Examples</a>
+      </div>
+      <div class="trust-badges">
+        <div class="trust-badge">
+          <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+          AI-Powered Detection
+        </div>
+        <div class="trust-badge">
+          <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+          100% On-Device
+        </div>
+        <div class="trust-badge">
+          <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+          2M+ Users
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="landing-section">
+    <div class="container">
+      <h2>Similar Photos vs. Duplicates: What's the Difference?</h2>
+      <p class="lead">iPhone's built-in Duplicates album only finds exact copies. But similar photos — the real storage wasters — slip through.</p>
+      
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔄</div>
+          <h3>Exact Duplicates</h3>
+          <p>The same image saved twice. iPhone can find these, but they're actually rare in most libraries.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📷</div>
+          <h3>Similar Photos</h3>
+          <p>Different shots that look nearly identical — burst photos, multiple angles, slight variations. These waste far more storage.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>Fast Cleaner Finds Both</h3>
+          <p>Our AI uses perceptual hashing to detect visual similarity, not just pixel-perfect matches. Clean everything in one scan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="examples" class="landing-section alt">
+    <div class="container">
+      <h2>Types of Similar Photos Fast Cleaner Finds</h2>
+      <p class="lead">Real examples of similar photo clutter that iPhone's built-in feature completely misses:</p>
+      
+      <div class="example-grid">
+        <div class="example-card">
+          <h3>📸 Burst Mode Leftovers</h3>
+          <p>You took 47 shots trying to capture one perfect moment. Now you have 46 nearly-identical photos wasting space. Fast Cleaner groups them and lets you keep just the best one.</p>
+        </div>
+        <div class="example-card">
+          <h3>🌅 Multiple Scene Shots</h3>
+          <p>10 photos of the same sunset, 8 selfies with tiny expression changes, 15 shots of your food from slightly different angles. All grouped for easy cleanup.</p>
+        </div>
+        <div class="example-card">
+          <h3>👶 Rapid-Fire Kid/Pet Photos</h3>
+          <p>Kids and pets don't hold still, so you take dozens of shots. Most look almost identical. Keep your favorites, delete the rest in seconds.</p>
+        </div>
+        <div class="example-card">
+          <h3>✈️ Travel Photo Duplicates</h3>
+          <p>Standing in front of landmarks, you take the same shot multiple times "just in case." They all look the same, but they're all in your library.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="landing-section">
+    <div class="container">
+      <h2>How to Remove Similar Photos on iPhone</h2>
+      <p class="lead">Fast Cleaner makes it simple to find and clean up similar photos:</p>
+      
+      <div class="how-it-works" style="max-width: 600px;">
+        <div class="step">
+          <div class="step-number"></div>
+          <div class="step-content">
+            <h3>Download Fast Cleaner</h3>
+            <p>Get the app free from the App Store. Grant photo library access when prompted — everything stays on your device.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number"></div>
+          <div class="step-content">
+            <h3>Run AI Scan</h3>
+            <p>Tap "Find Duplicates" and let the AI analyze your photos. It compares visual content, not just file data, to find similar shots.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number"></div>
+          <div class="step-content">
+            <h3>Review Similar Groups</h3>
+            <p>See photos grouped by similarity. The app auto-selects lower quality versions, but you can adjust selections before cleaning.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number"></div>
+          <div class="step-content">
+            <h3>Clean and Reclaim Space</h3>
+            <p>Tap "Clean" to remove selected photos. They go to Recently Deleted for 30 days, so you can recover any mistakes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="landing-section alt">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-section">
+        <details>
+          <summary>How do I remove similar photos on iPhone?</summary>
+          <p><strong>Use Fast Cleaner's AI-powered scan.</strong> Download the app, tap "Find Duplicates," and the AI will group similar photos together. Unlike iPhone's built-in feature which only finds exact copies, Fast Cleaner detects visually similar images — burst shots, multiple angles, and near-identical photos.</p>
+        </details>
+        <details>
+          <summary>Can iPhone detect similar photos that aren't exact duplicates?</summary>
+          <p><strong>No, iPhone's Duplicates album only finds exact pixel-perfect copies.</strong> It won't detect similar photos like 10 shots of the same sunset, burst photos, or nearly-identical images. For these, you need an AI-powered app like Fast Cleaner that uses perceptual hashing to compare visual content.</p>
+        </details>
+        <details>
+          <summary>What's the difference between duplicate and similar photos?</summary>
+          <p><strong>Duplicates are exact copies; similar photos are different shots that look nearly identical.</strong> For example, if you save the same photo twice, that's a duplicate. If you take 10 photos of the same scene with tiny differences between them, those are similar photos. Similar photos typically waste more storage.</p>
+        </details>
+        <details>
+          <summary>How does Fast Cleaner's AI find similar photos?</summary>
+          <p><strong>Fast Cleaner uses on-device AI with perceptual hashing.</strong> It analyzes the visual content of each photo — colors, shapes, composition — to identify images that look similar even if they're not pixel-perfect matches. All processing happens locally on your iPhone for complete privacy.</p>
+        </details>
+        <details>
+          <summary>Will removing similar photos delete my originals?</summary>
+          <p><strong>You choose which versions to keep.</strong> Fast Cleaner groups similar photos and auto-selects lower quality versions, but you have full control. Review each group before cleaning. Deleted photos go to Recently Deleted for 30 days, so you can recover any mistakes.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="container">
+      <h2>Stop Similar Photos from Wasting Your Storage</h2>
+      <p>Join 2 million+ users who've cleaned up their photo libraries with Fast Cleaner.</p>
+      <a class="btn" href="https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167" target="_blank" rel="noopener">Download Free on App Store</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:20px">
+        <div>© 2026 Fast Cleaner. All rights reserved.</div>
+        <div style="display:flex;gap:16px;flex-wrap:wrap">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="mailto:tshank30@gmail.com">Contact</a>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:20px;padding-top:16px;border-top:1px solid #e5e7eb">
+        <span style="color:#64748b;font-size:13px">Follow us:</span>
+        <a href="https://www.facebook.com/profile.php?id=61572920487817" target="_blank" rel="noopener" title="Facebook" style="color:#64748b"><svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="https://www.instagram.com/fastcleaner32" target="_blank" rel="noopener" title="Instagram" style="color:#64748b"><svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+        <a href="https://x.com/fastCleaner32" target="_blank" rel="noopener" title="X (Twitter)" style="color:#64748b"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="https://www.linkedin.com/company/fast-cleaner-32/" target="_blank" rel="noopener" title="LinkedIn" style="color:#64748b"><svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

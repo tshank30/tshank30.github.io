@@ -201,6 +201,12 @@ footer{padding:50px 0;border-top:1px solid var(--line);color:#64748b;font-size:1
   .title{font-size:40px}
   .grid-3,.gallery{grid-template-columns:1fr}
   .strip .items{grid-template-columns:1fr 1fr}
+  /* Footer responsive */
+  footer [style*="grid-template-columns:repeat(4"]{grid-template-columns:1fr 1fr !important;gap:24px !important}
+  /* How it works responsive */
+  #how-it-works [style*="grid-template-columns:repeat(4"]{grid-template-columns:1fr 1fr !important;gap:20px !important}
+  /* About section responsive */
+  #about [style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr !important}
 }
 
 /* === Responsive header / nav === */
