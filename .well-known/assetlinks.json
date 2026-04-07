@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.crocapps.fastcleaner",
+      "sha256_cert_fingerprints": [
+        "DF:71:01:D7:A9:26:57:08:AB:3E:7A:89:6E:64:5E:25:2F:77:E0:05:8E:AD:DD:B9:48:9F:40:7C:56:87"
+      ]
+    }
+  }
+]
