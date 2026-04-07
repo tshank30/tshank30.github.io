@@ -37,6 +37,8 @@ header{
   box-shadow:0 10px 30px rgba(117,45,224,.35)
 }
 .btn.outline{background:#fff;color:var(--brand);border:1px solid #e9d5ff;box-shadow:none}
+.store-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+.store-note{margin-top:12px;font-size:13px;color:var(--muted)}
 
 /* ===== HERO (centered on desktop) ===== */
 /* Works with either .hero .wrap or .hero-wrap grid containers */
@@ -95,7 +97,6 @@ a.card:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(2,6,23,0.12)
 .small{color:var(--muted);font-size:14px;margin:0}
 .gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .gallery .card{padding:12px}
-
 /* ===== FAQ ===== */
 .faq details{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;transition:box-shadow 0.2s}
 .faq details:hover{box-shadow:0 4px 12px rgba(2,6,23,0.06)}
@@ -226,6 +227,7 @@ footer{padding:50px 0;border-top:1px solid var(--line);color:#64748b;font-size:1
 
 .nav-cta{
   white-space:nowrap;
+  display:none;
 }
 
 /* Mobile nav */
@@ -295,6 +297,7 @@ footer{padding:50px 0;border-top:1px solid var(--line);color:#64748b;font-size:1
     display:flex;
   }
   .nav-cta{
+    display:inline-flex;
     font-size:14px;
     padding:10px 14px;
   }
