@@ -26,7 +26,7 @@ header{
 .nav{height:72px;display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;gap:10px;align-items:center}
 .brand img{width:36px;height:36px;border-radius:10px}
-.brand h1{font-size:18px;margin:0;font-weight:800}
+.brand-name{font-size:18px;margin:0;font-weight:800}
 .menu{display:flex;gap:28px;align-items:center}
 .menu a{color:#475569;font-weight:600;opacity:.9}
 .menu a:hover{opacity:1}
@@ -236,7 +236,7 @@ footer{padding:50px 0;border-top:1px solid var(--line);color:#64748b;font-size:1
     height:64px;
     gap:8px;
   }
-  .brand h1{
+  .brand-name{
     display:none;
   }
   .nav-toggle-label{
