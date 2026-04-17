@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Download Fast Cleaner</title>
+<meta content="Download Fast Cleaner for Android or iPhone." name="description"/>
+<meta content="noindex,follow" name="robots"/>
+<link href="assets/icon.webp" rel="icon"/>
+<link href="https://tshank30.github.io/download.html" rel="canonical"/>
+<meta content="Download Fast Cleaner" property="og:title"/>
+<meta content="Get Fast Cleaner for Android or iPhone." property="og:description"/>
+<meta content="https://tshank30.github.io/assets/icon.webp" property="og:image"/>
+<meta content="https://tshank30.github.io/download.html" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Download Fast Cleaner" name="twitter:title"/>
+<meta content="Get Fast Cleaner for Android or iPhone." name="twitter:description"/>
+<meta content="https://tshank30.github.io/assets/icon.webp" name="twitter:image"/>
+<link href="style.css" rel="stylesheet"/>
+<style>
+body{
+  min-height:100dvh;
+  display:flex;
+  flex-direction:column;
+}
+.download-landing{
+  flex:1;
+  display:grid;
+  place-items:center;
+  padding:40px 0;
+}
+.download-panel{
+  width:min(100%,560px);
+  text-align:center;
+}
+.download-icon{
+  width:82px;
+  height:82px;
+  border-radius:22px;
+  margin:0 auto 20px;
+  box-shadow:var(--shadow);
+}
+.download-panel h1{
+  font-size:40px;
+  line-height:1.08;
+  margin:0 0 12px;
+}
+.download-panel p{
+  color:var(--muted);
+  font-size:17px;
+  line-height:1.6;
+  margin:0;
+}
+.download-panel .store-actions{
+  justify-content:center;
+  margin-top:24px;
+}
+.download-status{
+  min-height:24px;
+  margin-top:18px;
+  color:var(--muted);
+  font-size:14px;
+}
+@media(max-width:640px){
+  .download-panel h1{font-size:32px}
+  .download-panel .store-actions{display:grid}
+  .download-panel .btn{justify-content:center}
+}
+</style>
+<script>
+(function () {
+  var APPLE_URL = "https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167";
+  var GOOGLE_URL = "https://play.google.com/store/apps/details?id=com.crocapps.fastphotocleaner";
+
+  function isIOS() {
+    var ua = navigator.userAgent || navigator.vendor || "";
+    var iOSDevice = /iPad|iPhone|iPod/.test(ua);
+    var iPadOS = navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1;
+    return iOSDevice || iPadOS;
+  }
+
+  function isAndroid() {
+    return /Android/i.test(navigator.userAgent || navigator.vendor || "");
+  }
+
+  function setStatus(message) {
+    var status = document.getElementById("download-status");
+    if (status) {
+      status.textContent = message;
+    }
+  }
+
+  function redirectTo(url, message) {
+    setStatus(message);
+    window.setTimeout(function () {
+      window.location.replace(url);
+    }, 350);
+  }
+
+  function initDownloadLanding() {
+    var params = new URLSearchParams(window.location.search);
+    var store = params.get("store");
+
+    if (store === "android") {
+      redirectTo(GOOGLE_URL, "Opening Google Play...");
+      return;
+    }
+
+    if (store === "ios") {
+      redirectTo(APPLE_URL, "Opening the App Store...");
+      return;
+    }
+
+    if (isAndroid()) {
+      redirectTo(GOOGLE_URL, "Opening Google Play...");
+      return;
+    }
+
+    if (isIOS()) {
+      redirectTo(APPLE_URL, "Opening the App Store...");
+      return;
+    }
+
+    setStatus("Choose your app store.");
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initDownloadLanding);
+  } else {
+    initDownloadLanding();
+  }
+})();
+</script>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="brand" href="index.html">
+<img alt="Fast Cleaner app icon" decoding="async" fetchpriority="high" loading="eager" src="assets/icon.webp"/>
+<h1>Fast Cleaner</h1>
+</a>
+</div>
+</header>
+<main class="download-landing">
+<section class="container">
+<div class="download-panel">
+<img alt="Fast Cleaner app icon" class="download-icon" decoding="async" fetchpriority="high" loading="eager" src="assets/icon.webp"/>
+<h1>Download Fast Cleaner</h1>
+<p>Opening the right app store for your device.</p>
+<div class="store-actions">
+<a class="btn" href="https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167" rel="noopener" target="_blank">Download on App Store</a>
+<a class="btn outline" href="https://play.google.com/store/apps/details?id=com.crocapps.fastphotocleaner" rel="noopener" target="_blank">Get it on Google Play</a>
+</div>
+<p class="download-status" id="download-status" aria-live="polite">Checking your device...</p>
+<noscript>
+<p class="download-status">JavaScript is off. Choose your app store above.</p>
+</noscript>
+</div>
+</section>
+</main>
+<footer>
+<div class="container" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">
+<p style="margin:0">&copy; 2026 Fast Cleaner. All rights reserved.</p>
+<div class="links">
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+<a href="mailto:tshank30@gmail.com">Contact</a>
+</div>
+</div>
+</footer>
+</body>
+</html>

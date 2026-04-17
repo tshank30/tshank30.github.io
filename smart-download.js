@@ -1,6 +1,6 @@
 (function () {
   var APPLE_URL = "https://apps.apple.com/app/fast-cleaner-ai-photo-clean/id6446206167";
-  var GOOGLE_URL = "https://play.google.com/store/apps/details?id=com.crocapps.fastcleaner";
+  var GOOGLE_URL = "https://play.google.com/store/apps/details?id=com.crocapps.fastphotocleaner";
 
   function isIOS() {
     var ua = navigator.userAgent || navigator.vendor || "";
