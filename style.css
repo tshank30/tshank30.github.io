@@ -4,7 +4,7 @@
 
 :root{
   --bg:#f8fafc;--surface:#ffffff;--text:#0f172a;--muted:#475569;--line:#e5e7eb;
-  --brand:#752de0;--brand2:#8c4bc9;--radius:18px;--shadow:0 18px 60px rgba(2,6,23,.10);
+  --brand:#752de0;--brand2:#b315d8;--radius:18px;--shadow:0 18px 60px rgba(2,6,23,.10);
 }
 
 *{box-sizing:border-box}
@@ -64,16 +64,16 @@ header{
 .subtitle{font-size:18px;color:var(--muted)}
 
 /* Right-side visual */
-.phone{ align-self:center; position:relative; aspect-ratio:9/19; }
+.phone{ align-self:center; position:relative; aspect-ratio:460/740; isolation:isolate; }
 .device{
-  position:absolute;right:0;width:min(360px,100%);border-radius:26px;
+  position:absolute;top:20px;left:4%;width:64%;border-radius:26px;z-index:2;
   border:1px solid var(--line);
   background:linear-gradient(180deg,#fff,#f6f7fb);box-shadow:var(--shadow);
   transform:rotate(-6deg)
 }
 .device.secondary{
-  transform:rotate(6deg) translate(-70px,40px);
-  opacity:.95;z-index:-1
+  top:52px;left:auto;right:4%;transform:rotate(6deg);
+  z-index:1
 }
 .device img{display:block;width:100%;border-radius:24px}
 
@@ -196,9 +196,7 @@ footer{padding:50px 0;border-top:1px solid var(--line);color:#64748b;font-size:1
     padding-bottom:40px;
   }
   .hero .wrap, .hero-wrap{grid-template-columns:1fr;gap:26px;align-items:start}
-  .phone{ align-self:start; height:520px }     /* explicit height keeps layout tidy */
-  .device{ left:50%; transform:translateX(-20%) rotate(-6deg) }
-  .device.secondary{ left:50%; transform:translateX(-80%) rotate(6deg) }
+  .phone{ align-self:start; width:min(100%,460px); margin-inline:auto }
   .title{font-size:40px}
   .grid-3,.gallery{grid-template-columns:1fr}
   .strip .items{grid-template-columns:1fr 1fr}
