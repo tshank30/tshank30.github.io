@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+<title id="title">Where does photo analysis happen?</title>
+<desc id="desc">On-device processing goes from your library to local analysis to your review. Cloud processing adds a media upload to provider servers before returning results. Analytics and existing backups are separate.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9977b9"/></marker></defs>
+<rect width="960" height="480" rx="24" fill="#fff"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<text x="40" y="48" fill="#181025" font-size="23" font-weight="700">One cleanup task. Two possible data paths.</text>
+<rect x="32" y="76" width="896" height="168" rx="18" fill="#f6f0fe"/>
+<text x="56" y="108" fill="#6528b2" font-size="14" font-weight="700" letter-spacing="1">ON-DEVICE ANALYSIS</text>
+<rect x="56" y="129" width="218" height="80" rx="12" fill="#fff" stroke="#e0d1ef"/>
+<text x="165" y="164" text-anchor="middle" font-size="16" fill="#281a38" font-weight="600">Your photo library</text>
+<text x="165" y="189" text-anchor="middle" font-size="13" fill="#62516f">On your phone</text>
+<path d="M286 169H350" stroke="#9977b9" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="364" y="129" width="218" height="80" rx="12" fill="#752de0"/>
+<text x="473" y="164" text-anchor="middle" font-size="16" fill="#fff" font-weight="600">Analyze locally</text>
+<text x="473" y="189" text-anchor="middle" font-size="13" fill="#ede0ff">No media upload for analysis</text>
+<path d="M594 169H658" stroke="#9977b9" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="672" y="129" width="232" height="80" rx="12" fill="#fff" stroke="#e0d1ef"/>
+<text x="788" y="164" text-anchor="middle" font-size="16" fill="#281a38" font-weight="600">Review suggestions</text>
+<text x="788" y="189" text-anchor="middle" font-size="13" fill="#62516f">Choose what to keep</text>
+<rect x="32" y="260" width="896" height="168" rx="18" fill="#f5f7fa"/>
+<text x="56" y="292" fill="#475569" font-size="14" font-weight="700" letter-spacing="1">CLOUD ANALYSIS</text>
+<rect x="56" y="315" width="218" height="80" rx="12" fill="#fff" stroke="#dce1e8"/>
+<text x="165" y="350" text-anchor="middle" font-size="16" fill="#281a38" font-weight="600">Your photo library</text>
+<text x="165" y="375" text-anchor="middle" font-size="13" fill="#62516f">On your phone</text>
+<path d="M286 355H350" stroke="#9977b9" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="320" y="333" text-anchor="middle" font-size="11" fill="#62516f">Upload</text>
+<rect x="364" y="315" width="218" height="80" rx="12" fill="#fff" stroke="#dce1e8"/>
+<text x="473" y="350" text-anchor="middle" font-size="16" fill="#281a38" font-weight="600">Provider servers</text>
+<text x="473" y="375" text-anchor="middle" font-size="13" fill="#62516f">Media processed remotely</text>
+<path d="M594 355H658" stroke="#9977b9" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="628" y="333" text-anchor="middle" font-size="11" fill="#62516f">Results</text>
+<rect x="672" y="315" width="232" height="80" rx="12" fill="#fff" stroke="#dce1e8"/>
+<text x="788" y="350" text-anchor="middle" font-size="16" fill="#281a38" font-weight="600">Review suggestions</text>
+<text x="788" y="375" text-anchor="middle" font-size="13" fill="#62516f">Back on your phone</text>
+<text x="40" y="458" font-size="12" fill="#64748b">Simplified analysis flows. Usage analytics and existing cloud backups are separate.</text>
+</g></svg>
