@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Before you clean, check the details</title><desc id="desc">A phone with landscape photo tiles is surrounded by three review cards: library access, data handling, and review before deleting.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f3eaff"/><stop offset="1" stop-color="#fbf9ff"/></linearGradient><linearGradient id="phone" x2="1" y2="1"><stop stop-color="#6226b5"/><stop offset="1" stop-color="#341653"/></linearGradient><linearGradient id="photo" x2="0" y2="1"><stop stop-color="#c8b5ef"/><stop offset="1" stop-color="#e8e2f7"/></linearGradient><filter id="shadow" x="-30%" y="-20%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#45236a" flood-opacity=".13"/></filter></defs>
+<rect width="1200" height="720" rx="32" fill="url(#bg)"/>
+<circle cx="324" cy="352" r="238" fill="#e9dcfa" opacity=".65"/><circle cx="1088" cy="80" r="190" fill="#e6efe9" opacity=".7"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<text x="64" y="75" font-size="15" letter-spacing="3" font-weight="700" fill="#6b3aa1">A CLOSER LOOK AT PHOTO CLEANUP</text>
+<g filter="url(#shadow)"><rect x="159" y="137" width="320" height="496" rx="43" fill="url(#phone)"/><rect x="173" y="151" width="292" height="468" rx="32" fill="#fff"/><rect x="269" y="166" width="100" height="18" rx="9" fill="#e6ddef"/>
+<text x="199" y="228" font-size="23" font-weight="700" fill="#2a183f">Your photo library</text>
+<text x="199" y="255" font-size="13" fill="#776881">Keep the moments that matter.</text>
+<g fill="url(#photo)"><rect x="197" y="280" width="111" height="116" rx="12"/><rect x="328" y="280" width="111" height="116" rx="12"/><rect x="197" y="413" width="111" height="116" rx="12"/><rect x="328" y="413" width="111" height="116" rx="12"/></g>
+<g fill="#a291c4"><path d="M197 380 231 333 265 370 283 352 308 381V384Q308 396 296 396H209Q197 396 197 384Z"/><path d="M328 373 364 345 389 365 418 326 439 367V384Q439 396 427 396H340Q328 396 328 384Z"/><path d="M197 498 228 461 259 487 285 449 308 492V517Q308 529 296 529H209Q197 529 197 517Z"/><path d="M328 505 357 468 385 488 411 456 439 501V517Q439 529 427 529H340Q328 529 328 517Z"/></g>
+<g fill="#fff3cf"><circle cx="275" cy="309" r="12"/><circle cx="353" cy="310" r="11"/><circle cx="276" cy="440" r="10"/><circle cx="410" cy="442" r="11"/></g>
+<rect x="197" y="551" width="242" height="41" rx="10" fill="#f0e7fc"/><text x="318" y="577" text-anchor="middle" font-size="14" fill="#6528b2" font-weight="700">You choose what to keep</text></g>
+<g fill="none" stroke="#b49ad1" stroke-width="2" stroke-dasharray="6 8"><path d="M489 257H540V230H583"/><path d="M489 385H583"/><path d="M489 514H540V540H583"/></g>
+<g filter="url(#shadow)"><rect x="584" y="169" width="538" height="126" rx="20" fill="white"/><rect x="584" y="324" width="538" height="126" rx="20" fill="white"/><rect x="584" y="479" width="538" height="126" rx="20" fill="white"/></g>
+<g fill="#f0e7fc"><rect x="611" y="202" width="58" height="58" rx="16"/><rect x="611" y="357" width="58" height="58" rx="16"/><rect x="611" y="512" width="58" height="58" rx="16"/></g>
+<g font-size="22" font-weight="700" fill="#752de0" text-anchor="middle"><text x="640" y="239">01</text><text x="640" y="394">02</text><text x="640" y="549">03</text></g>
+<g font-size="25" font-weight="700" fill="#2a183f"><text x="694" y="225">Library access</text><text x="694" y="380">Data handling</text><text x="694" y="535">Deletion controls</text></g>
+<g font-size="17" fill="#776881"><text x="694" y="255">Which photos can the app read?</text><text x="694" y="410">Where does the analysis happen?</text><text x="694" y="565">Can you review before removing?</text></g>
+<text x="64" y="680" font-size="13" fill="#776881">An illustration of the questions to ask. Not an operating system permission screen.</text>
+</g></svg>
