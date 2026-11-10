@@ -1,0 +1,15 @@
+/* Enhancements for the cleaner safety guide; editorial base is shared. */
+.article-hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.key-takeaway ul{padding-left:20px;margin:16px 0 0;font-size:16px;line-height:1.8;color:#334155}.key-takeaway li+li{margin-top:10px}
+.permission-guides,.reader-faq{border:1px solid #e7deef;border-radius:16px;overflow:hidden;background:#fff;margin:24px 0}
+.permission-guides details+details,.reader-faq details+details{border-top:1px solid var(--line)}
+.permission-guides summary,.reader-faq summary{font-size:16px;font-weight:700;line-height:1.6;cursor:pointer;padding:20px 24px;color:#352047}
+.permission-guides details[open] summary,.reader-faq details[open] summary{background:#f8f4fe}
+.permission-guides details>div,.reader-faq details>div{padding:20px 24px}.permission-guides ol{padding-left:20px;font-size:15px;line-height:1.8;color:#334155;margin:0 0 16px}.permission-guides li+li{margin-top:10px}.permission-guides p,.reader-faq p{font-size:15px;line-height:1.8;margin-bottom:0}
+.evidence-note{margin:24px 0;background:#eff7f5;border:1px solid #cee5df;border-radius:16px;padding:22px 24px}.evidence-note>strong{font-size:14px;color:#275b4f}.evidence-note p{font-size:15px;margin:8px 0 0}
+.app-review{background:white;border:1px solid #e1d3ef;border-radius:20px;padding:28px;margin:28px 0 40px;box-shadow:0 12px 36px #4c1d9508}.app-review[hidden]{display:none}
+.review-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:24px}.review-heading button{background:#f8f4fe;border:1px solid #ded2ed;border-radius:8px;padding:10px 12px;color:#5b21a0;font:inherit;font-size:12px;font-weight:600;cursor:pointer;min-height:40px}.review-heading button:disabled{opacity:.5;cursor:default}
+.review-fields{display:grid;gap:22px}.review-field label{display:block;font-size:15px;line-height:1.6;font-weight:700;margin-bottom:8px}.review-field select{display:block;max-width:100%;width:100%;font:inherit;font-size:16px;line-height:1.6;color:#334155;background:#fcfbff;border:1px solid #d5cae3;border-radius:9px;padding:12px 32px 12px 12px;min-height:48px;cursor:pointer}
+.review-result{background:#f6f0fc;border-radius:12px;padding:24px;margin:28px 0 20px}.review-result h3{font-size:19px;margin:0 0 8px}.review-result #review-progress{font-size:13px;color:#6528b2;font-weight:700;margin:0 0 14px}.review-result p{font-size:15px;line-height:1.7;margin:0}.review-result ul{font-size:14px;line-height:1.75;color:#4a3d57;padding-left:20px;margin:16px 0 0}.review-result li+li{margin-top:12px}.app-review .review-footnote{font-size:12px;line-height:1.7;color:var(--muted);margin:0}
+summary:focus-visible,select:focus-visible{outline:3px solid #9b5de5;outline-offset:3px}
+@media(max-width:760px){.article-hero-grid{grid-template-columns:minmax(0,1fr)}.app-review{padding:20px}.review-result{padding:20px}.permission-guides summary,.reader-faq summary{padding:18px 20px}.permission-guides details>div,.reader-faq details>div{padding:18px 20px}.key-takeaway ul{font-size:15px}.review-heading{align-items:flex-start}}
