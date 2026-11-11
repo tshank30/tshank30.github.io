@@ -20,17 +20,25 @@
     });
     update();
   }
-  // Highlight the section in view; normal anchor navigation works without JS.
-  if (!('IntersectionObserver' in window)) return;
+  // Track the last heading above the sticky header, clearing the state at the top.
   const links = [...document.querySelectorAll('.article-sidebar nav a')];
-  const observer = new IntersectionObserver(entries => {
-    for (const entry of entries) {
-      if (!entry.isIntersecting) continue;
-      links.forEach(link => {
-        if (link.hash === `#${entry.target.id}`) link.setAttribute('aria-current', 'location');
-        else link.removeAttribute('aria-current');
-      });
-    }
-  }, { rootMargin: '-100px 0px -45% 0px' });
-  document.querySelectorAll('.article-content h2[id]').forEach(section => observer.observe(section));
+  const sections = [...document.querySelectorAll('.article-content h2[id]')];
+  if (!links.length || !sections.length) return;
+  let scheduled = false;
+  const updateSection = () => {
+    scheduled = false;
+    const active = sections.filter(section => section.getBoundingClientRect().top <= 120).pop();
+    links.forEach(link => {
+      if (active && link.hash === `#${active.id}`) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    });
+  };
+  const scheduleUpdate = () => {
+    if (scheduled) return;
+    scheduled = true;
+    window.requestAnimationFrame(updateSection);
+  };
+  window.addEventListener('scroll', scheduleUpdate, { passive: true });
+  window.addEventListener('resize', scheduleUpdate);
+  updateSection();
 })();
