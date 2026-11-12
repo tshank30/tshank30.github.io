@@ -125,6 +125,14 @@
       platform = "ios";
     }
 
+    document.querySelectorAll("a[data-smart-download-link]").forEach(function (link) {
+      if (platform === "android") {
+        link.href = GOOGLE_URL;
+      } else if (platform === "ios") {
+        link.href = APPLE_URL;
+      }
+    });
+
     var seen = new Set();
     document.querySelectorAll('a.btn[href*="apps.apple.com"], a.btn[href*="play.google.com"]').forEach(function (link) {
       var group = getButtonGroup(link);
