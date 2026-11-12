@@ -181,6 +181,20 @@ a.card:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(2,6,23,0.12)
 }
 .blog-card-mini:hover .blog-read-more { gap: 8px; }
 
+/* ===== Other products ===== */
+.other-products{border-top:1px solid var(--line)}
+.other-product-card{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;align-items:center;margin-top:24px;padding:32px}
+.other-product-copy{min-width:0}
+.other-product-copy h3{font-size:28px;margin:16px 0 10px}
+.other-product-copy p{line-height:1.7;margin:0 0 20px}
+.other-product-highlights{list-style:none;padding:0;margin:0;display:grid;gap:18px}
+.other-product-highlights li{padding-left:18px;border-left:3px solid #e9d5ff}
+.other-product-highlights strong{display:block;margin-bottom:5px}
+.other-product-highlights span{color:var(--muted);font-size:14px;line-height:1.6}
+@media(max-width:768px){
+  .other-product-card{grid-template-columns:1fr;gap:28px;padding:24px}
+}
+
 /* ===== CTA band + footer ===== */
 .cta-band{background:linear-gradient(135deg,#f5f3ff,#ffffff);border-top:1px solid var(--line)}
 footer{padding:50px 0;border-top:1px solid var(--line);color:#64748b;font-size:14px}
