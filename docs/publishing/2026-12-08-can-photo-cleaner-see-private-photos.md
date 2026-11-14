@@ -31,3 +31,7 @@ Examples are illustrative. Platform behavior is attributed beside the relevant c
 ## Validation
 
 HTML structure, local assets and links, section IDs, schema JSON, dates, sitemap XML, SVG XML, and checklist structure are checked before push. Shared checklist and platform detection are exercised with simulated device environments. Chrome checks passed for all ten articles at 390px and 1440px: no page overflow and all eager images loaded. Representative desktop and mobile screenshots were visually reviewed. The actual browser checklist completed and reset correctly.
+
+## Cover artwork
+
+A locked photo gallery with a separate key, illustrating the decision to grant access. The cover uses an original topic-specific vector composition, with descriptive article, blog-card, and Open Graph alternative text. It is an illustration rather than a screenshot or measured test result.
