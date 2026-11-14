@@ -30,3 +30,7 @@ This is a reproducible comparison guide, not a product benchmark. No before-and-
 ## Validation
 
 HTML structure, local assets and links, section IDs, schema JSON, dates, sitemap XML, SVG XML, and checklist structure are checked before push. Shared checklist and platform detection are exercised with simulated device environments. Chrome checks passed for all ten articles at 390px and 1440px: no page overflow and all eager images loaded. Representative desktop and mobile screenshots were visually reviewed. The actual browser checklist completed and reset correctly.
+
+## Cover artwork
+
+A split landscape showing crisp and pixelated illustration styles; not a measured encoding result. The cover uses an original topic-specific vector composition, with descriptive article, blog-card, and Open Graph alternative text. It is an illustration rather than a screenshot or measured test result.
