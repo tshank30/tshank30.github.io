@@ -4,18 +4,18 @@ Ten independently reviewable articles, about three days apart. All times are 10:
 
 These are planned publication dates in unmerged PRs, not an automated publishing system. Merge each PR on its date. Merging early exposes the static article immediately, even though its byline is future-dated. If a date changes, update all publication fields to the actual release date before merging.
 
-| Planned date | Article | Branch |
+| Planned date | Article / PR | Branch |
 |---|---|---|
-| 2026-11-17 | Why Is My iPhone Storage Still Full After Deleting Photos? | `articles/2026-11-17-iphone-storage-full-after-deleting-photos` |
-| 2026-11-20 | Why Aren’t Duplicate Photos Showing Up on My iPhone? | `articles/2026-11-20-duplicate-photos-not-showing-iphone` |
-| 2026-11-23 | iPhone Storage vs. iCloud Storage: Which One Is Full? | `articles/2026-11-23-iphone-storage-vs-icloud-storage` |
-| 2026-11-26 | Google Photos “Free Up Space” vs. Delete: What’s the Difference? | `articles/2026-11-26-google-photos-free-up-space-vs-delete` |
-| 2026-11-29 | Duplicate vs. Similar Photos: Which Should You Delete? | `articles/2026-11-29-duplicate-vs-similar-photos` |
-| 2026-12-02 | How to Find Large Videos Taking Up Space on Your Phone | `articles/2026-12-02-find-large-videos-phone-storage` |
-| 2026-12-05 | Does Compressing a Video Reduce Quality? How to Compare Before and After | `articles/2026-12-05-video-compression-quality-comparison` |
-| 2026-12-08 | Can a Photo Cleaner See Your Private Photos? | `articles/2026-12-08-can-photo-cleaner-see-private-photos` |
-| 2026-12-11 | Does On-Device AI Remove Photo Location Metadata? | `articles/2026-12-11-on-device-ai-photo-location-metadata` |
-| 2026-12-14 | How to Free Up Android Storage Without Deleting Important Photos | `articles/2026-12-14-free-up-android-storage-without-deleting-photos` |
+| 2026-11-17 | [Why Is My iPhone Storage Still Full After Deleting Photos?](https://github.com/tshank30/tshank30.github.io/pull/16) | `articles/2026-11-17-iphone-storage-full-after-deleting-photos` |
+| 2026-11-20 | [Why Aren’t Duplicate Photos Showing Up on My iPhone?](https://github.com/tshank30/tshank30.github.io/pull/17) | `articles/2026-11-20-duplicate-photos-not-showing-iphone` |
+| 2026-11-23 | [iPhone Storage vs. iCloud Storage: Which One Is Full?](https://github.com/tshank30/tshank30.github.io/pull/18) | `articles/2026-11-23-iphone-storage-vs-icloud-storage` |
+| 2026-11-26 | [Google Photos “Free Up Space” vs. Delete: What’s the Difference?](https://github.com/tshank30/tshank30.github.io/pull/19) | `articles/2026-11-26-google-photos-free-up-space-vs-delete` |
+| 2026-11-29 | [Duplicate vs. Similar Photos: Which Should You Delete?](https://github.com/tshank30/tshank30.github.io/pull/20) | `articles/2026-11-29-duplicate-vs-similar-photos` |
+| 2026-12-02 | [How to Find Large Videos Taking Up Space on Your Phone](https://github.com/tshank30/tshank30.github.io/pull/21) | `articles/2026-12-02-find-large-videos-phone-storage` |
+| 2026-12-05 | [Does Compressing a Video Reduce Quality? How to Compare Before and After](https://github.com/tshank30/tshank30.github.io/pull/22) | `articles/2026-12-05-video-compression-quality-comparison` |
+| 2026-12-08 | [Can a Photo Cleaner See Your Private Photos?](https://github.com/tshank30/tshank30.github.io/pull/23) | `articles/2026-12-08-can-photo-cleaner-see-private-photos` |
+| 2026-12-11 | [Does On-Device AI Remove Photo Location Metadata?](https://github.com/tshank30/tshank30.github.io/pull/24) | `articles/2026-12-11-on-device-ai-photo-location-metadata` |
+| 2026-12-14 | [How to Free Up Android Storage Without Deleting Important Photos](https://github.com/tshank30/tshank30.github.io/pull/25) | `articles/2026-12-14-free-up-android-storage-without-deleting-photos` |
 
 ## Why this order
 
