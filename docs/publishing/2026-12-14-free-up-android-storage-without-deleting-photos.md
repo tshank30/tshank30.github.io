@@ -3,6 +3,7 @@
 - Planned publication: **December 14, 2026, 10:00 IST (Asia/Kolkata)**.
 - Branch: `articles/2026-12-14-free-up-android-storage-without-deleting-photos`.
 - Target: `main`.
+- Pull request: https://github.com/tshank30/tshank30.github.io/pull/25
 - Page: `blog/free-up-android-storage-without-deleting-photos.html`.
 - Scope: one article, its original vector cover, blog listing entry, and sitemap entry.
 - Content checked against official sources on November 14, 2026. Recheck version-specific steps before publication.
@@ -29,4 +30,4 @@ Examples are illustrative. Platform behavior is attributed beside the relevant c
 
 ## Validation
 
-HTML structure, local assets and links, section IDs, schema JSON, dates, sitemap XML, SVG XML, and checklist structure are checked before push. Shared checklist and platform detection are exercised with simulated device environments. Browser appearance still requires visual review if a browser preview is unavailable.
+HTML structure, local assets and links, section IDs, schema JSON, dates, sitemap XML, SVG XML, and checklist structure are checked before push. Shared checklist and platform detection are exercised with simulated device environments. Chrome checks passed for all ten articles at 390px and 1440px: no page overflow and all eager images loaded. Representative desktop and mobile screenshots were visually reviewed. The actual browser checklist completed and reset correctly.
