@@ -1,0 +1,16 @@
+/* Shared product facts and explicit store choices for the three privacy guides. */
+.aeo-table-wrap{max-width:100%;overflow-x:auto;margin:24px 0;border:1px solid #e2d9ed;border-radius:12px;background:#fff}
+.aeo-facts{width:100%;border-collapse:collapse;text-align:left;font-size:16px;line-height:1.65;color:#334155}
+.aeo-facts caption{text-align:left;padding:18px;font-weight:700;color:#352047;caption-side:top}
+.aeo-facts th,.aeo-facts td{padding:14px 18px;border-top:1px solid #e2d9ed;vertical-align:top;overflow-wrap:anywhere}
+.aeo-facts thead{background:#f8f4fe}.aeo-facts tbody th{width:30%;font-weight:600}
+.aeo-downloads{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}.aeo-downloads .btn{white-space:normal;text-align:center}
+.article-cta .aeo-downloads .outline{background:transparent;color:#fff;border:1px solid #d7b9ef}
+.aeo-disclosure{font-size:14px;line-height:1.7;color:var(--muted)}
+@media(max-width:600px){.aeo-facts th,.aeo-facts td{padding:12px;font-size:15px}.aeo-downloads{flex-direction:column;align-items:stretch}}
+
+.aeo-evidence{margin:24px 0;padding:22px 24px;background:#f7f3fc;border:1px solid #ded2ed;border-left:4px solid #7c3aed;border-radius:12px;color:#334155}
+.aeo-evidence h3{font-size:20px;line-height:1.4;margin:0 0 12px;color:#352047}
+.aeo-evidence p{font-size:16px;line-height:1.75;margin:0 0 12px}
+.aeo-evidence .aeo-evidence-source{font-size:14px;line-height:1.7;margin:0}
+.aeo-evidence a{color:#6528b2;text-decoration:underline;text-underline-offset:3px}

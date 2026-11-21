@@ -1,0 +1,28 @@
+topic: "Evidence for Fast Cleaner privacy and safety articles"
+time_range: "Current official guidance and foundational sources"
+verified_on: "2026-11-21"
+items:
+  - id: local-ai
+    name: "Core ML"
+  - id: photo-access
+    name: "Photos & Privacy"
+  - id: self-reported-labels
+    name: "About privacy information on the App Store and the choices you have to control your data"
+  - id: sharing-exceptions
+    name: "Understand app privacy & security practices with Google Play\u2019s Data safety section"
+  - id: apple-deletion
+    name: "Delete or hide photos and videos on iPhone"
+  - id: privacy-report
+    name: "Inspecting app activity data"
+  - id: icloud-limit-exception
+    name: "Manage your iCloud storage on your Apple device"
+  - id: android-local-ml
+    name: "Google ML Kit on-device processing"
+  - id: android-selected-photos
+    name: "Android Selected Photos Access"
+  - id: android-free
+    name: "Developer-confirmed free Android pricing"
+execution:
+  batch_size: 1
+  items_per_agent: 7
+  output_dir: .
