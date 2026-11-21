@@ -80,5 +80,32 @@
       "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
     }
   ],
-  "browser_checks": "Pending responsive validation before push."
+  "browser_checks": [
+    {
+      "file": "blog/video-compression-quality-comparison.html",
+      "root": "/tmp/fast-cleaner-research-pr-22",
+      "pr": 22,
+      "title": "Does Compressing a Video Reduce Quality? How to Compare Before and After | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6693,
+      "heading": 100,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/video-compression-quality-comparison.html",
+      "root": "/tmp/fast-cleaner-research-pr-22",
+      "pr": 22,
+      "title": "Does Compressing a Video Reduce Quality? How to Compare Before and After | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4563,
+      "heading": 99.59375,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
 }
