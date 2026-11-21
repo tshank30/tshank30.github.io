@@ -80,5 +80,32 @@
       "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
     }
   ],
-  "browser_checks": "Pending responsive validation before push."
+  "browser_checks": [
+    {
+      "file": "blog/iphone-storage-vs-icloud-storage.html",
+      "root": "/tmp/fast-cleaner-research-pr-18",
+      "pr": 18,
+      "title": "iPhone Storage vs. iCloud Storage: Which One Is Full? | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6405,
+      "heading": 99.96875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/iphone-storage-vs-icloud-storage.html",
+      "root": "/tmp/fast-cleaner-research-pr-18",
+      "pr": 18,
+      "title": "iPhone Storage vs. iCloud Storage: Which One Is Full? | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4371,
+      "heading": 100.265625,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
 }
