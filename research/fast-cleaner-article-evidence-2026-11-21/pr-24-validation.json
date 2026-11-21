@@ -80,5 +80,32 @@
       "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
     }
   ],
-  "browser_checks": "Pending responsive validation before push."
+  "browser_checks": [
+    {
+      "file": "blog/on-device-ai-photo-location-metadata.html",
+      "root": "/tmp/fast-cleaner-research-pr-24",
+      "pr": 24,
+      "title": "Does On-Device AI Remove Photo Location Metadata? | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6645,
+      "heading": 99.734375,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/on-device-ai-photo-location-metadata.html",
+      "root": "/tmp/fast-cleaner-research-pr-24",
+      "pr": 24,
+      "title": "Does On-Device AI Remove Photo Location Metadata? | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4574,
+      "heading": 100.328125,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
 }
