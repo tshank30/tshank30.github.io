@@ -1,0 +1,84 @@
+{
+  "pr": 24,
+  "planned_publication": "2026-12-11T10:00:00+05:30",
+  "article": {
+    "article": "blog/on-device-ai-photo-location-metadata.html",
+    "published": false,
+    "question": "Does using Fast Cleaner automatically remove photo locations?",
+    "source": {
+      "publisher": "Google",
+      "title": "Understand, find and edit photo locations",
+      "url": "https://support.google.com/photos/answer/6153599?hl=en",
+      "quote": "estimates your location",
+      "fact": "Google documents location estimates based on landmarks and other photos. Removing one metadata field does not remove visual clues or every service-level location record.",
+      "verified_on": "2026-11-21"
+    },
+    "comparison": "Three separate places location information can appear",
+    "diagram": "assets/article-evidence/metadata.svg",
+    "product_screenshot": null,
+    "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+  },
+  "static_checks": [
+    {
+      "article": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "word_count": 1940,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/are-photo-cleaner-apps-safe.html",
+      "word_count": 2715,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/cleanup-before-buying-new-phone.html",
+      "word_count": 2256,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/compress-videos-iphone.html",
+      "word_count": 1293,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/delete-duplicate-photos-iphone.html",
+      "word_count": 1160,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/duplicate-photos-not-showing-iphone.html",
+      "word_count": 1346,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/how-to-free-up-iphone-storage.html",
+      "word_count": 1249,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full-after-deleting-photos.html",
+      "word_count": 1426,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full.html",
+      "word_count": 1235,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/on-device-ai-photo-location-metadata.html",
+      "word_count": 1335,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/rising-phone-cloud-storage-costs.html",
+      "word_count": 2255,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/should-i-buy-a-new-phone.html",
+      "word_count": 2092,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    }
+  ],
+  "browser_checks": "Pending responsive validation before push."
+}
