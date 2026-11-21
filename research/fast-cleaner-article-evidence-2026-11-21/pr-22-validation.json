@@ -1,0 +1,84 @@
+{
+  "pr": 22,
+  "planned_publication": "2026-12-05T10:00:00+05:30",
+  "article": {
+    "article": "blog/video-compression-quality-comparison.html",
+    "published": false,
+    "question": "How should I compare a video compressed with Fast Cleaner?",
+    "source": {
+      "publisher": "Google",
+      "title": "Choose your backup quality",
+      "url": "https://support.google.com/photos/answer/6220791?hl=en",
+      "quote": "slightly reduced quality",
+      "fact": "Google uses this phrase for Storage saver backups. A backup setting or smaller file should not be assumed to preserve an identical original.",
+      "verified_on": "2026-11-21"
+    },
+    "comparison": "A useful before-and-after comparison",
+    "diagram": "assets/article-evidence/video.svg",
+    "product_screenshot": "video-compression.webp",
+    "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+  },
+  "static_checks": [
+    {
+      "article": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "word_count": 1940,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/are-photo-cleaner-apps-safe.html",
+      "word_count": 2715,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/cleanup-before-buying-new-phone.html",
+      "word_count": 2256,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/compress-videos-iphone.html",
+      "word_count": 1293,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/delete-duplicate-photos-iphone.html",
+      "word_count": 1160,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/duplicate-photos-not-showing-iphone.html",
+      "word_count": 1346,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/how-to-free-up-iphone-storage.html",
+      "word_count": 1249,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full-after-deleting-photos.html",
+      "word_count": 1426,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full.html",
+      "word_count": 1235,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/rising-phone-cloud-storage-costs.html",
+      "word_count": 2255,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/should-i-buy-a-new-phone.html",
+      "word_count": 2092,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/video-compression-quality-comparison.html",
+      "word_count": 1361,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    }
+  ],
+  "browser_checks": "Pending responsive validation before push."
+}
