@@ -80,5 +80,32 @@
       "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
     }
   ],
-  "browser_checks": "Pending responsive validation before push."
+  "browser_checks": [
+    {
+      "file": "blog/google-photos-free-up-space-vs-delete.html",
+      "root": "/tmp/fast-cleaner-research-pr-19",
+      "pr": 19,
+      "title": "Google Photos “Free Up Space” vs. Delete: What’s the Difference? | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6381,
+      "heading": 100.03125,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/google-photos-free-up-space-vs-delete.html",
+      "root": "/tmp/fast-cleaner-research-pr-19",
+      "pr": 19,
+      "title": "Google Photos “Free Up Space” vs. Delete: What’s the Difference? | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4449,
+      "heading": 99.8125,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
 }
