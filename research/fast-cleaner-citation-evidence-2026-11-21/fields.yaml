@@ -1,0 +1,31 @@
+fields:
+  evidence:
+    - name: claim
+      description: "Verifiable factual statement"
+      detail_level: detailed
+    - name: quote
+      description: "Short exact excerpt; null when paraphrasing"
+      detail_level: detailed
+    - name: url
+      description: "Canonical primary-source URL"
+      detail_level: detailed
+    - name: publisher
+      description: "Source organization"
+      detail_level: detailed
+    - name: verified_on
+      description: "Date source was checked"
+      detail_level: detailed
+    - name: limitation
+      description: "Scope and what the source does not establish"
+      detail_level: detailed
+    - name: placement
+      description: "Local article using the evidence"
+      detail_level: detailed
+    - name: claim_scope
+      description: "Platform capability, provider behavior, or product claim; prevents platform guidance being mistaken for app verification"
+      detail_level: detailed
+    - name: recovery_conditions
+      description: "Conditions and exceptions affecting recovery"
+      detail_level: detailed
+uncertain:
+  - "App implementation and independent security validation"
