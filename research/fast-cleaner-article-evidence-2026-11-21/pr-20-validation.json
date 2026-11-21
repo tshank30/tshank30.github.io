@@ -80,5 +80,32 @@
       "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
     }
   ],
-  "browser_checks": "Pending responsive validation before push."
+  "browser_checks": [
+    {
+      "file": "blog/duplicate-vs-similar-photos.html",
+      "root": "/tmp/fast-cleaner-research-pr-20",
+      "pr": 20,
+      "title": "Duplicate vs. Similar Photos: Which Should You Delete? | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6402,
+      "heading": 99.875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/duplicate-vs-similar-photos.html",
+      "root": "/tmp/fast-cleaner-research-pr-20",
+      "pr": 20,
+      "title": "Duplicate vs. Similar Photos: Which Should You Delete? | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4344,
+      "heading": 99.5625,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
 }
