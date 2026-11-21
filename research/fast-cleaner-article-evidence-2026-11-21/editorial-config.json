@@ -1,0 +1,801 @@
+{
+  "sources": {
+    "storage": [
+      "Apple",
+      "How to check storage on iPhone and iPad",
+      "https://support.apple.com/en-us/108429"
+    ],
+    "capacity": [
+      "Apple",
+      "Device storage versus iCloud storage",
+      "https://support.apple.com/en-gb/102670"
+    ],
+    "indexing": [
+      "Apple",
+      "If you cannot find the Duplicates album",
+      "https://support.apple.com/en-la/102260"
+    ],
+    "merge": [
+      "Apple",
+      "Merge duplicate photos and videos",
+      "https://support.apple.com/guide/iphone/merge-duplicate-photos-and-videos-iph1978d9c23/ios"
+    ],
+    "codec": [
+      "Apple",
+      "Using HEIF or HEVC media",
+      "https://support.apple.com/en-us/116944"
+    ],
+    "optimize": [
+      "Apple",
+      "Manage your photo and video storage",
+      "https://support.apple.com/en-us/105061"
+    ],
+    "slow": [
+      "Apple",
+      "If your iPhone or iPad is running slow",
+      "https://support.apple.com/en-us/102598"
+    ],
+    "cloudcost": [
+      "Apple",
+      "iCloud+ plans and pricing",
+      "https://support.apple.com/en-us/108047"
+    ],
+    "android": [
+      "Google",
+      "Free up storage on your Android device",
+      "https://support.google.com/android/answer/7431795?hl=en"
+    ],
+    "freeup": [
+      "Google",
+      "Free up space on your Android device",
+      "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DAndroid"
+    ],
+    "delete": [
+      "Google",
+      "Delete photos and videos",
+      "https://support.google.com/photos/answer/6128858?hl=en&co=GENIE.Platform%3DAndroid"
+    ],
+    "backup": [
+      "Google",
+      "Choose your backup quality",
+      "https://support.google.com/photos/answer/6220791?hl=en"
+    ],
+    "location": [
+      "Google",
+      "Understand, find and edit photo locations",
+      "https://support.google.com/photos/answer/6153599?hl=en"
+    ],
+    "permissions": [
+      "Apple",
+      "Photos and Privacy",
+      "https://www.apple.com/legal/privacy/data/en/photos/"
+    ],
+    "androidaccess": [
+      "Google",
+      "Grant partial access to photos and videos",
+      "https://developer.android.com/about/versions/14/changes/partial-photo-video-access"
+    ],
+    "ml": [
+      "Google",
+      "ML Kit",
+      "https://developers.google.com/ml-kit"
+    ],
+    "updates": [
+      "Google",
+      "Pixel software update support",
+      "https://support.google.com/pixelphone/answer/4457705?hl=en"
+    ],
+    "appprivacy": [
+      "Apple",
+      "App privacy information",
+      "https://support.apple.com/en-us/102399"
+    ]
+  },
+  "articles": {
+    "compress-videos-iphone": {
+      "question": "Can Fast Cleaner help make an iPhone video smaller?",
+      "answer": "Fast Cleaner offers video compression on iPhone. Export a copy, check fine detail and playback, then decide what to keep. Smaller files can involve a quality tradeoff; neither a fixed saving nor a visually identical result is guaranteed.",
+      "diagram": "video",
+      "comparison": "Compress an existing video or change future recordings?",
+      "headers": [
+        "Choice",
+        "What it changes",
+        "When to use it"
+      ],
+      "rows": [
+        [
+          "Camera recording settings",
+          "Future recordings; not files already captured.",
+          "Choose a suitable resolution and frame rate before recording."
+        ],
+        [
+          "Fast Cleaner video compression",
+          "Exports a smaller copy of an existing video on supported iPhone versions.",
+          "You want to review a smaller version before replacing an original."
+        ],
+        [
+          "Keep or archive the original",
+          "Preserves the source file rather than re-encoding it.",
+          "You need editing flexibility or an irreplaceable full-quality source."
+        ]
+      ],
+      "source": "codec",
+      "quote": "more broadly compatible",
+      "fact": "Apple uses this description for older JPEG/H.264 formats. File size is only one choice: test the exported video in the app or device that will receive it.",
+      "app": "Use Fast Cleaner to make a candidate smaller copy, then compare duration, speech, motion, text and dark areas against your retained original. Android users can review large videos in the Android app; do not assume every iPhone export option is available on Android.",
+      "image": "video-compression.webp",
+      "alt": "Fast Cleaner interface showing video compression controls.",
+      "related": "delete-duplicate-photos-iphone.html"
+    },
+    "delete-duplicate-photos-iphone": {
+      "question": "Should I use Apple Photos or Fast Cleaner for duplicate photos?",
+      "answer": "Start with Apple Photos for the duplicates it identifies. Fast Cleaner is another option when you want to review similar photos, screenshots and large videos in a cleanup workflow. Inspect the actual files before confirming removal; similar pictures can capture different details.",
+      "diagram": "duplicates",
+      "comparison": "Apple Photos, Fast Cleaner, or manual review?",
+      "headers": [
+        "Approach",
+        "Useful for",
+        "Check before removing"
+      ],
+      "rows": [
+        [
+          "Apple Photos Duplicates",
+          "Merging groups that Photos has identified.",
+          "Review the group and understand synced deletion."
+        ],
+        [
+          "Fast Cleaner",
+          "Grouping duplicate and similar photos for your review.",
+          "Check permission scope and inspect the selected items."
+        ],
+        [
+          "Manual comparison",
+          "A few important pictures, edits, or different moments.",
+          "Compare faces, text, crops and original versions."
+        ]
+      ],
+      "source": "merge",
+      "quote": null,
+      "fact": "Apple documents a built-in merge workflow for identified duplicates. This is a useful starting point; it is not a speed or accuracy comparison with third-party apps.",
+      "app": "Fast Cleaner helps you review suggested groups while you decide which images to keep. Its Android edition is free and listed as Duplicate Photo Cleaner AI by CrocApps; the iPhone app has a separate pricing model.",
+      "image": "similar-photos.webp",
+      "alt": "Fast Cleaner interface showing groups of similar photos for review.",
+      "related": "duplicate-photos-not-showing-iphone.html"
+    },
+    "how-to-free-up-iphone-storage": {
+      "question": "Where does Fast Cleaner fit in an iPhone storage cleanup?",
+      "answer": "Use iPhone Storage to identify the large category first. Fast Cleaner can help when photos, screenshots or videos are the files you want to review. Use system settings for apps and downloads; a photo cleaner cannot expand hardware capacity or remove every app’s private data.",
+      "diagram": "cleanup",
+      "comparison": "Choose the cleanup method that matches the category",
+      "headers": [
+        "Large category",
+        "First tool to consider",
+        "Fast Cleaner’s role"
+      ],
+      "rows": [
+        [
+          "Unwanted photos and videos",
+          "Photos or a media-review app.",
+          "Review duplicate and similar photos, screenshots and large videos."
+        ],
+        [
+          "Unused apps",
+          "iPhone Storage: Offload App or Delete App.",
+          "A media cleaner does not replace app management."
+        ],
+        [
+          "Offline downloads",
+          "The app that downloaded the media.",
+          "Review separate camera-library clutter if needed."
+        ]
+      ],
+      "source": "storage",
+      "quote": "keeps its documents and data",
+      "fact": "Apple describes offloading an app this way. Deleting the app is a different action that also removes related data.",
+      "app": "Start with a small Fast Cleaner review session, keep irreplaceable files, and check iPhone Storage again. Compare the actual before-and-after storage figure rather than estimating savings from the number of photos selected.",
+      "image": "storage-overview.webp",
+      "alt": "Fast Cleaner interface showing media cleanup categories.",
+      "related": "iphone-storage-full.html"
+    },
+    "iphone-storage-full": {
+      "question": "Can Fast Cleaner fix an iPhone storage-full warning?",
+      "answer": "Fast Cleaner can help you review unwanted local media when photos and videos are taking up space. It cannot increase the phone’s built-in capacity or repair every cause of a storage warning. Identify the large category before choosing a cleanup action.",
+      "diagram": "capacity",
+      "comparison": "Match the warning to the capacity",
+      "headers": [
+        "Warning or category",
+        "What to check",
+        "Suitable next step"
+      ],
+      "rows": [
+        [
+          "Device storage full",
+          "Settings → General → iPhone Storage.",
+          "Review the biggest removable category."
+        ],
+        [
+          "iCloud storage full",
+          "Settings → your name → iCloud.",
+          "Manage cloud usage or review an appropriate plan."
+        ],
+        [
+          "Photos and videos dominate",
+          "Inspect sizes and important copies.",
+          "Compare manual review with Fast Cleaner’s grouping."
+        ]
+      ],
+      "source": "capacity",
+      "quote": "set amount of storage",
+      "fact": "Apple describes the capacity supplied with a device in these terms. More cloud space does not add physical storage chips to the phone.",
+      "app": "If the issue is unwanted camera-library media, use Fast Cleaner to inspect likely cleanup candidates. If the issue is a large app database or a cloud backup, work in the appropriate app or cloud settings instead.",
+      "image": "storage-overview.webp",
+      "alt": "Fast Cleaner interface showing categories for local media review.",
+      "related": "how-to-free-up-iphone-storage.html"
+    },
+    "duplicate-photos-not-showing-iphone": {
+      "question": "Can Fast Cleaner help when iPhone Duplicates is missing?",
+      "answer": "Fast Cleaner provides a separate review workflow for duplicate and similar photos. A missing Apple Duplicates collection can still reflect indexing or a lack of identified matches, so it is worth checking Apple’s prerequisites before choosing another tool.",
+      "diagram": "duplicates",
+      "comparison": "Missing Apple collection or empty cleaner results?",
+      "headers": [
+        "Situation",
+        "Possible explanation",
+        "Check first"
+      ],
+      "rows": [
+        [
+          "Apple Duplicates collection missing",
+          "Photos has not finished detection or identified matches.",
+          "Allow Apple’s background indexing process."
+        ],
+        [
+          "A third-party app finds little",
+          "Only selected photos may be accessible.",
+          "Review that app’s photo permission."
+        ],
+        [
+          "Pictures look alike but are different",
+          "Rapid shots, edits or crops preserve different content.",
+          "Use manual comparison or Fast Cleaner’s similar-photo review."
+        ]
+      ],
+      "source": "indexing",
+      "quote": "locked and connected to power",
+      "fact": "Apple lists these prerequisites for duplicate detection and says completion can take days. Another app’s matching speed cannot be inferred from Apple’s instructions.",
+      "app": "Use Fast Cleaner to review related shots if that suits the job, not as proof that Photos is faulty. Preserve the frame with the expression, readable text or uncropped detail you actually want.",
+      "image": "similar-photos.webp",
+      "alt": "Fast Cleaner similar-photo review interface.",
+      "related": "delete-duplicate-photos-iphone.html"
+    },
+    "iphone-storage-full-after-deleting-photos": {
+      "question": "Why can storage stay full after a Fast Cleaner cleanup?",
+      "answer": "Deleting photos may not address the largest storage category, and recovery or sync behavior can affect what changes. Fast Cleaner helps you review media; the device’s storage screen is the place to check whether the cleanup solved your particular space problem.",
+      "diagram": "cleanup",
+      "comparison": "What changed after deletion?",
+      "headers": [
+        "Observation",
+        "What it suggests",
+        "Next check"
+      ],
+      "rows": [
+        [
+          "Photos still occupies space",
+          "Review the photo service’s recovery and sync state.",
+          "Preserve important copies before permanent removal."
+        ],
+        [
+          "Apps or downloads dominate",
+          "Photo deletion did not target the largest category.",
+          "Use storage settings and the responsible app."
+        ],
+        [
+          "Only a cloud meter changed",
+          "Local and cloud capacities are separate.",
+          "Compare the same device-storage screen before and after."
+        ]
+      ],
+      "source": "optimize",
+      "quote": "space-saving copies",
+      "fact": "Apple uses this term for local versions kept with Optimize Storage. A cloud-original size and the current device footprint can differ.",
+      "app": "After reviewing files in Fast Cleaner, return to the same storage screen and record its updated value. A count of removed pictures is not a reliable substitute for the bytes actually recovered.",
+      "image": "storage-overview.webp",
+      "alt": "Fast Cleaner overview of photo and video cleanup categories.",
+      "related": "iphone-storage-full.html"
+    },
+    "cleanup-before-buying-new-phone": {
+      "question": "Can Fast Cleaner help me keep my current phone longer?",
+      "answer": "Fast Cleaner may help when unwanted photos and videos are the immediate storage problem. It cannot repair a battery, extend software support or add camera hardware. Clean up, repeat the blocked task, and base an upgrade decision on what remains unsolved.",
+      "diagram": "decisions",
+      "comparison": "Cleanup, service, cloud storage, or replacement?",
+      "headers": [
+        "Choice",
+        "Addresses",
+        "Does not establish"
+      ],
+      "rows": [
+        [
+          "Fast Cleaner media review",
+          "Unwanted local photos, screenshots and videos.",
+          "That every performance or battery problem is solved."
+        ],
+        [
+          "Battery or hardware service",
+          "A diagnosed component problem.",
+          "More storage or longer software support."
+        ],
+        [
+          "Cloud plan or archive",
+          "Access to files beyond current local needs.",
+          "More built-in device capacity."
+        ],
+        [
+          "Replacement phone",
+          "Hardware, capacity or support requirements you have outgrown.",
+          "That cleanup would have recovered a specific amount."
+        ]
+      ],
+      "source": "slow",
+      "quote": "at least 1 GB",
+      "fact": "Apple recommends this much free space to avoid slowdowns, while identifying other possible causes. This is troubleshooting guidance, not a Fast Cleaner performance result.",
+      "app": "Try Fast Cleaner when your storage breakdown points to unwanted media. Keep a record of the original problem and test it again after cleanup before attributing any improvement to the app.",
+      "image": null,
+      "related": "should-i-buy-a-new-phone.html"
+    },
+    "rising-phone-cloud-storage-costs": {
+      "question": "Can Fast Cleaner reduce my cloud storage bill?",
+      "answer": "Fast Cleaner can help review unwanted media, but using a cleaner does not automatically lower a cloud bill. A plan change only makes sense after checking total cloud usage, sync behavior and the capacity required for the files and backups you keep.",
+      "diagram": "capacity",
+      "comparison": "Compare media cleanup with cloud capacity",
+      "headers": [
+        "Option",
+        "Changes",
+        "Cost question"
+      ],
+      "rows": [
+        [
+          "Fast Cleaner",
+          "Helps review unwanted local media.",
+          "Android is free; iPhone has optional purchases."
+        ],
+        [
+          "An iCloud+ plan",
+          "Adds cloud storage and plan features.",
+          "Check recurring price and actual usage."
+        ],
+        [
+          "A separate local archive",
+          "Moves preserved copies to another storage location.",
+          "Include drive cost, backup upkeep and access needs."
+        ]
+      ],
+      "source": "cloudcost",
+      "quote": "you're billed monthly",
+      "fact": "Apple describes iCloud+ billing this way. Recheck your country’s current plan and whether all stored data fits before changing tiers.",
+      "app": "Treat Fast Cleaner as a media-review tool in the comparison, not a substitute for a backup service. Only describe a bill reduction after you have actually changed a plan and verified the new charge.",
+      "image": null,
+      "related": "cleanup-before-buying-new-phone.html"
+    },
+    "should-i-buy-a-new-phone": {
+      "question": "Should I try Fast Cleaner before buying a new phone?",
+      "answer": "Try a media cleanup first if full storage is the problem and the rest of the phone meets your needs. Fast Cleaner can help review unwanted media. Consider repair, official update support and essential hardware requirements separately when deciding whether to replace the device.",
+      "diagram": "decisions",
+      "comparison": "Keep, clean, repair, or replace?",
+      "headers": [
+        "Situation",
+        "Useful first check",
+        "Role of Fast Cleaner"
+      ],
+      "rows": [
+        [
+          "Storage blocks a recording or download",
+          "Inspect storage categories and review unwanted media.",
+          "A candidate for photo and video review."
+        ],
+        [
+          "Battery life is unreliable",
+          "Inspect battery information and service options.",
+          "Not a battery repair."
+        ],
+        [
+          "Security support has ended",
+          "Read the manufacturer’s model-specific update policy.",
+          "Does not extend update support."
+        ],
+        [
+          "A required hardware feature is missing",
+          "Compare a device that actually supplies it.",
+          "Does not add physical features."
+        ]
+      ],
+      "source": "updates",
+      "quote": "security updates",
+      "fact": "Google publishes model-specific support periods for Pixel phones. Other Android owners should check their own manufacturer rather than assume one universal support window.",
+      "app": "Use Fast Cleaner if the immediate obstacle is media storage, then repeat the activity you could not finish. That gives you a practical decision point without inventing an app benchmark.",
+      "image": null,
+      "related": "cleanup-before-buying-new-phone.html"
+    },
+    "ai-privacy-on-device-photo-cleaner": {
+      "rich": true,
+      "diagram": "privacy",
+      "comparison": "Local analysis, cloud analysis, and separate analytics",
+      "headers": [
+        "Data flow",
+        "What to ask",
+        "Fast Cleaner’s disclosure"
+      ],
+      "rows": [
+        [
+          "Photo and video analysis",
+          "Where are the media files analyzed?",
+          "Our policy describes core analysis on-device."
+        ],
+        [
+          "Usage analytics",
+          "What events and diagnostics leave the device?",
+          "Our policy describes separate limited Firebase analytics."
+        ],
+        [
+          "Cloud photo backup",
+          "Which service stores and syncs existing copies?",
+          "Your separate backup and sync settings still apply."
+        ]
+      ],
+      "source": "ml",
+      "quote": null,
+      "fact": "Google’s ML Kit is an example of on-device machine learning. Platform capability is not an independent audit of an app.",
+      "app": null,
+      "image": null
+    },
+    "are-photo-cleaner-apps-safe": {
+      "rich": true,
+      "diagram": "privacy",
+      "comparison": "Compare evidence before choosing a photo cleaner",
+      "headers": [
+        "Check",
+        "Useful evidence",
+        "What it does not prove"
+      ],
+      "rows": [
+        [
+          "App permissions",
+          "Device settings and the permission request.",
+          "That every accessible photo is uploaded."
+        ],
+        [
+          "Media processing",
+          "A specific policy and, where available, implementation testing.",
+          "That on-device analysis means zero analytics."
+        ],
+        [
+          "Fast Cleaner",
+          "Published policy, product review screens, and current store terms.",
+          "An independent security certification."
+        ]
+      ],
+      "source": "appprivacy",
+      "quote": null,
+      "fact": "Apple explains that developers report App Store privacy information. Use it together with the policy and the permissions you grant.",
+      "app": null,
+      "image": null
+    },
+    "iphone-storage-vs-icloud-storage": {
+      "question": "Does Fast Cleaner free iPhone storage or add iCloud storage?",
+      "answer": "Fast Cleaner helps you review media stored on your phone. It does not add device capacity or sell cloud storage. Identify whether the warning concerns your device or iCloud first, because those problems require different checks.",
+      "diagram": "capacity",
+      "comparison": "A cleaner, optimization, or a cloud plan?",
+      "headers": [
+        "Option",
+        "Capacity affected",
+        "Main limitation"
+      ],
+      "rows": [
+        [
+          "Fast Cleaner media review",
+          "Can reduce local media use when you remove unwanted files.",
+          "Does not add capacity or replace backups."
+        ],
+        [
+          "Optimize iPhone Storage",
+          "Can keep smaller local copies with originals in iCloud.",
+          "Needs the appropriate iCloud setup and capacity."
+        ],
+        [
+          "iCloud+ plan",
+          "Adds cloud capacity.",
+          "Does not increase physical device storage."
+        ]
+      ],
+      "source": "capacity",
+      "quote": "set amount of storage",
+      "fact": "Apple uses this description for device capacity. Keep local cleanup and cloud-plan decisions separate.",
+      "app": "Use Fast Cleaner when the camera library contains media you no longer need. Check the effects of synced deletion before removing anything from an iCloud Photos library.",
+      "image": null,
+      "related": "iphone-storage-full.html"
+    },
+    "google-photos-free-up-space-vs-delete": {
+      "question": "How is Fast Cleaner different from Google Photos Free up space?",
+      "answer": "Fast Cleaner helps you decide which media you no longer want. Google Photos Free up space removes device copies already backed up to Google Photos. Choose based on whether you want to keep a cloud copy or remove an item from the library.",
+      "diagram": "sync",
+      "comparison": "Three different photo cleanup actions",
+      "headers": [
+        "Action",
+        "Intended result",
+        "Check first"
+      ],
+      "rows": [
+        [
+          "Google Photos Free up space",
+          "Remove eligible backed-up device copies.",
+          "Backup completion and whether you need offline access."
+        ],
+        [
+          "Delete in Google Photos",
+          "Remove the photo from the library and affected synced devices.",
+          "Which devices and copies will be affected."
+        ],
+        [
+          "Review in Fast Cleaner",
+          "Choose unwanted local media from cleanup suggestions.",
+          "Permissions and your photo service’s deletion behavior."
+        ]
+      ],
+      "source": "freeup",
+      "quote": "This feature deletes photos",
+      "fact": "Google’s warning refers to device copies. Its guide also explains that removed copies are unavailable in the built-in gallery and while offline.",
+      "app": "Fast Cleaner is free on Android under the Google Play name Duplicate Photo Cleaner AI by CrocApps. Use it for deliberate review; use Google Photos’ device-copy removal when keeping a verified cloud version is your goal.",
+      "image": null,
+      "related": "are-photo-cleaner-apps-safe.html"
+    },
+    "duplicate-vs-similar-photos": {
+      "question": "Does Fast Cleaner treat similar photos as files I should delete?",
+      "answer": "Fast Cleaner groups cleanup candidates for review; a similar-photo group is not a judgment that every image except one is unnecessary. Compare expressions, text, edits and framing before deciding what to remove.",
+      "diagram": "duplicates",
+      "comparison": "Copies, similar moments, and edits",
+      "headers": [
+        "Case",
+        "Why it matters",
+        "Review decision"
+      ],
+      "rows": [
+        [
+          "Repeated copy",
+          "You may have saved or imported the same picture again.",
+          "Retain the usable version you need."
+        ],
+        [
+          "Similar moment",
+          "Expressions and small details may differ.",
+          "Compare each image before choosing."
+        ],
+        [
+          "Edited version",
+          "A crop or retouch may serve a different purpose.",
+          "Keep the source if future editing matters."
+        ]
+      ],
+      "source": "merge",
+      "quote": null,
+      "fact": "Apple’s Duplicates feature offers a merge workflow for identified groups. A cleaner’s similar-image suggestions are a separate reason to inspect the content.",
+      "app": "In Fast Cleaner, review the actual suggested images rather than deciding from the group count. For a small set of important photos, manual side-by-side inspection may be enough.",
+      "image": "similar-photos.webp",
+      "alt": "Fast Cleaner interface grouping similar photos for individual review.",
+      "related": "delete-duplicate-photos-iphone.html"
+    },
+    "find-large-videos-phone-storage": {
+      "question": "Can Fast Cleaner find large videos on Android and iPhone?",
+      "answer": "Fast Cleaner’s store descriptions include large-video review on Android and iPhone. Start with file size and whether the recording is still useful. A long, efficient recording may be smaller than a shorter high-resolution export, so duration alone is not a storage measurement.",
+      "diagram": "video",
+      "comparison": "Remove, compress, or archive a large video?",
+      "headers": [
+        "Choice",
+        "Useful when",
+        "Check first"
+      ],
+      "rows": [
+        [
+          "Remove after review",
+          "You no longer need the recording.",
+          "Separate copies and synced-deletion effects."
+        ],
+        [
+          "Compress an iPhone copy",
+          "A smaller version fits your intended use.",
+          "Text, motion, sound and playback compatibility."
+        ],
+        [
+          "Archive the original",
+          "The full-quality source remains important.",
+          "That the separate copy opens and is independently preserved."
+        ]
+      ],
+      "source": "codec",
+      "quote": "more broadly compatible",
+      "fact": "Apple uses this wording for older formats such as H.264. Size and compatibility are separate checks when you choose a smaller copy.",
+      "app": "Use Fast Cleaner to review large recordings, then choose the operation that matches your goal. Video compression options vary by platform; the Android listing establishes large-video review, not every iPhone compression control.",
+      "image": "video-compression.webp",
+      "alt": "Fast Cleaner iPhone interface showing video compression controls.",
+      "related": "compress-videos-iphone.html"
+    },
+    "video-compression-quality-comparison": {
+      "question": "How should I compare a video compressed with Fast Cleaner?",
+      "answer": "Compare a Fast Cleaner export against the retained original using the same display and playback app. Check motion, dark scenes, readable text, sound and duration as well as file size. No single savings percentage establishes that the result is good enough for your use.",
+      "diagram": "video",
+      "comparison": "A useful before-and-after comparison",
+      "headers": [
+        "Check",
+        "Compare",
+        "Reason"
+      ],
+      "rows": [
+        [
+          "Size",
+          "Original bytes versus exported bytes.",
+          "Establishes the actual reduction for this file."
+        ],
+        [
+          "Visual detail",
+          "Text, faces, motion and dark scenes.",
+          "Artifacts may be harder to see in a thumbnail."
+        ],
+        [
+          "Playback",
+          "Duration, sound, orientation and the receiving app.",
+          "A smaller file still has to work where you need it."
+        ],
+        [
+          "Original preservation",
+          "Open a separate retained source copy.",
+          "Export and deletion are different decisions."
+        ]
+      ],
+      "source": "backup",
+      "quote": "slightly reduced quality",
+      "fact": "Google uses this phrase for Storage saver backups. A backup setting or smaller file should not be assumed to preserve an identical original.",
+      "app": "On supported iPhone versions, use Fast Cleaner to create a candidate export and record your settings. This guide provides a comparison method, not a measured Fast Cleaner benchmark.",
+      "image": "video-compression.webp",
+      "alt": "Fast Cleaner iPhone video compression interface; not a before-and-after quality benchmark.",
+      "related": "compress-videos-iphone.html"
+    },
+    "can-photo-cleaner-see-private-photos": {
+      "question": "Can Fast Cleaner access photos I consider private?",
+      "answer": "A photo cleaner can access the media allowed by your device’s permissions. Fast Cleaner’s policy describes local media analysis, but local processing does not mean the app cannot read the photos you permit. Review access before scanning a sensitive library.",
+      "diagram": "privacy",
+      "comparison": "Permission, local processing, and uploads are different checks",
+      "headers": [
+        "Question",
+        "Where to look",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "Which photos can the app read?",
+          "Your device’s app-permission settings.",
+          "Selected access and broad access expose different sets of files."
+        ],
+        [
+          "Where is the media analyzed?",
+          "The app’s policy and technical evidence.",
+          "Local analysis concerns processing location."
+        ],
+        [
+          "What leaves the device?",
+          "Media, analytics and diagnostic disclosures.",
+          "Usage events and media uploads must be assessed separately."
+        ]
+      ],
+      "source": "permissions",
+      "quote": null,
+      "fact": "Apple says full photo access can include hidden photos even when the album is locked. Locking a collection is not a substitute for checking third-party access.",
+      "app": "Fast Cleaner’s published policy says photos, videos and cleanup analysis are not sent to us or Firebase Analytics. It separately describes limited analytics. Read those disclosures alongside the permissions shown on your own phone.",
+      "image": null,
+      "related": "are-photo-cleaner-apps-safe.html"
+    },
+    "on-device-ai-photo-location-metadata": {
+      "question": "Does using Fast Cleaner automatically remove photo locations?",
+      "answer": "On-device analysis describes where processing happens; it does not establish that location metadata has been removed. Fast Cleaner’s local-processing claim should not be treated as a metadata-stripping feature. Check the file and the sharing method separately before sending a sensitive photo.",
+      "diagram": "metadata",
+      "comparison": "Three separate places location information can appear",
+      "headers": [
+        "Layer",
+        "Example",
+        "What to inspect"
+      ],
+      "rows": [
+        [
+          "Visible image",
+          "Street sign or recognizable landmark.",
+          "The picture itself, even after metadata removal."
+        ],
+        [
+          "File or service metadata",
+          "Camera GPS, manually added or estimated location.",
+          "The file information and photo-service controls."
+        ],
+        [
+          "Sharing method",
+          "A shared album, link or exported file.",
+          "The information included by that particular sharing flow."
+        ]
+      ],
+      "source": "location",
+      "quote": "estimates your location",
+      "fact": "Google documents location estimates based on landmarks and other photos. Removing one metadata field does not remove visual clues or every service-level location record.",
+      "app": "Use Fast Cleaner for media review, and use the relevant photo or sharing controls for location privacy. Do not describe Fast Cleaner as removing GPS information unless that feature is verified in the current build.",
+      "image": null,
+      "related": "ai-privacy-on-device-photo-cleaner.html"
+    },
+    "free-up-android-storage-without-deleting-photos": {
+      "question": "Can free Fast Cleaner help clear Android storage while I keep important photos?",
+      "answer": "Fast Cleaner for Android is free and helps you review duplicate and similar photos, screenshots and large videos. Keep important media and start with other removable categories when you do not want to delete photos. A cleaner cannot create extra physical storage.",
+      "diagram": "android",
+      "comparison": "Android cleanup choices before deleting important photos",
+      "headers": [
+        "Choice",
+        "What it addresses",
+        "Keep in mind"
+      ],
+      "rows": [
+        [
+          "Remove offline downloads",
+          "Movies, music or files you can obtain again.",
+          "Remove them through the responsible app."
+        ],
+        [
+          "Clear an app’s cache",
+          "Temporary app data.",
+          "Clear storage is a different, more destructive operation."
+        ],
+        [
+          "Google Photos Free up space",
+          "Backed-up device copies.",
+          "Removed copies will not be available offline."
+        ],
+        [
+          "Fast Cleaner review",
+          "Unwanted duplicate/similar photos and large videos.",
+          "Keep important originals and review the selection."
+        ]
+      ],
+      "source": "android",
+      "quote": "Deletes temporary data",
+      "fact": "Google describes Clear cache this way. Its guide distinguishes this from Clear storage, which deletes app data.",
+      "app": "Find the free Android app on Google Play as Duplicate Photo Cleaner AI by CrocApps. Use it to identify media you genuinely no longer need; it is not a tool for adding RAM or accessing another app’s private storage.",
+      "image": null,
+      "related": "how-to-free-up-iphone-storage.html"
+    }
+  },
+  "pr_branches": {
+    "18": [
+      "2026-11-23-iphone-storage-vs-icloud-storage",
+      "iphone-storage-vs-icloud-storage"
+    ],
+    "19": [
+      "2026-11-26-google-photos-free-up-space-vs-delete",
+      "google-photos-free-up-space-vs-delete"
+    ],
+    "20": [
+      "2026-11-29-duplicate-vs-similar-photos",
+      "duplicate-vs-similar-photos"
+    ],
+    "21": [
+      "2026-12-02-find-large-videos-phone-storage",
+      "find-large-videos-phone-storage"
+    ],
+    "22": [
+      "2026-12-05-video-compression-quality-comparison",
+      "video-compression-quality-comparison"
+    ],
+    "23": [
+      "2026-12-08-can-photo-cleaner-see-private-photos",
+      "can-photo-cleaner-see-private-photos"
+    ],
+    "24": [
+      "2026-12-11-on-device-ai-photo-location-metadata",
+      "on-device-ai-photo-location-metadata"
+    ],
+    "25": [
+      "2026-12-14-free-up-android-storage-without-deleting-photos",
+      "free-up-android-storage-without-deleting-photos"
+    ]
+  }
+}

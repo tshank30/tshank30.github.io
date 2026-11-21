@@ -1,0 +1,304 @@
+{
+  "published_static_checks": [
+    {
+      "article": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "word_count": 1940,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/are-photo-cleaner-apps-safe.html",
+      "word_count": 2715,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/cleanup-before-buying-new-phone.html",
+      "word_count": 2256,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/compress-videos-iphone.html",
+      "word_count": 1293,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/delete-duplicate-photos-iphone.html",
+      "word_count": 1160,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/duplicate-photos-not-showing-iphone.html",
+      "word_count": 1346,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/how-to-free-up-iphone-storage.html",
+      "word_count": 1249,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full-after-deleting-photos.html",
+      "word_count": 1426,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full.html",
+      "word_count": 1235,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/rising-phone-cloud-storage-costs.html",
+      "word_count": 2255,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/should-i-buy-a-new-phone.html",
+      "word_count": 2092,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    }
+  ],
+  "scheduled_prs": "Article-specific changes and checks are maintained on each scheduled PR branch.",
+  "published_browser_checks": [
+    {
+      "file": "blog/compress-videos-iphone.html",
+      "title": "How to Compress Videos on iPhone and Check Quality | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6676,
+      "heading": 76.046875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/compress-videos-iphone.html",
+      "title": "How to Compress Videos on iPhone and Check Quality | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4722,
+      "heading": 75.515625,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/are-photo-cleaner-apps-safe.html",
+      "title": "Are Photo Cleaner Apps Safe? 5 Checks Before You Install | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 14380,
+      "heading": 99.921875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/are-photo-cleaner-apps-safe.html",
+      "title": "Are Photo Cleaner Apps Safe? 5 Checks Before You Install | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 9977,
+      "heading": 99.984375,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/cleanup-before-buying-new-phone.html",
+      "title": "Phone Storage Full? Try Cleanup Before Buying a New Phone | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 11744,
+      "heading": 100.03125,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/cleanup-before-buying-new-phone.html",
+      "title": "Phone Storage Full? Try Cleanup Before Buying a New Phone | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 7901,
+      "heading": 99.5625,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "title": "Does an AI Photo Cleaner Upload Your Photos? On-Device Privacy Explained | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 12267,
+      "heading": 100.21875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "title": "Does an AI Photo Cleaner Upload Your Photos? On-Device Privacy Explained | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 8485,
+      "heading": 99.8125,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/delete-duplicate-photos-iphone.html",
+      "title": "How to Find and Delete Duplicate Photos on iPhone | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6361,
+      "heading": 76.40625,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/delete-duplicate-photos-iphone.html",
+      "title": "How to Find and Delete Duplicate Photos on iPhone | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4463,
+      "heading": 76.171875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/duplicate-photos-not-showing-iphone.html",
+      "title": "Why Aren\u2019t Duplicate Photos Showing Up on My iPhone? | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6343,
+      "heading": 100.46875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/duplicate-photos-not-showing-iphone.html",
+      "title": "Why Aren\u2019t Duplicate Photos Showing Up on My iPhone? | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4338,
+      "heading": 99.84375,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/how-to-free-up-iphone-storage.html",
+      "title": "How to Free Up Storage on iPhone: 10 Practical Methods | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6717,
+      "heading": 76.109375,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/how-to-free-up-iphone-storage.html",
+      "title": "How to Free Up Storage on iPhone: 10 Practical Methods | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4580,
+      "heading": 75.5625,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/iphone-storage-full-after-deleting-photos.html",
+      "title": "Why Is My iPhone Storage Still Full After Deleting Photos? | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6906,
+      "heading": 100.46875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/iphone-storage-full-after-deleting-photos.html",
+      "title": "Why Is My iPhone Storage Still Full After Deleting Photos? | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4711,
+      "heading": 100.484375,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/iphone-storage-full.html",
+      "title": "iPhone Storage Full? Find What Is Taking Up Space | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6920,
+      "heading": 75.9375,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/iphone-storage-full.html",
+      "title": "iPhone Storage Full? Find What Is Taking Up Space | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4921,
+      "heading": 75.625,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/rising-phone-cloud-storage-costs.html",
+      "title": "Phone Prices, Cloud Bills, and When Cleanup Helps | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 11651,
+      "heading": 100.25,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/rising-phone-cloud-storage-costs.html",
+      "title": "Phone Prices, Cloud Bills, and When Cleanup Helps | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 8211,
+      "heading": 100.328125,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/should-i-buy-a-new-phone.html",
+      "title": "Should I Buy a New Phone? A Practical Upgrade Checklist | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 10575,
+      "heading": 100.1875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/should-i-buy-a-new-phone.html",
+      "title": "Should I Buy a New Phone? A Practical Upgrade Checklist | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 6860,
+      "heading": 99.75,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
+}
