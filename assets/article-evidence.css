@@ -1,0 +1,31 @@
+/* Topic-specific research, comparisons and responsive diagrams. */
+.article-answer{margin:24px 0;padding:22px 24px;background:#f4f0fc;border:1px solid #dfd3ee;border-radius:14px}
+.article-content .article-answer h2{font-size:23px;line-height:1.4;margin:0 0 12px}
+.article-content .article-answer p{margin:0;font-size:17px;line-height:1.8}
+.article-research{margin:40px 0;padding-top:12px;border-top:1px solid #dfd3ee;max-width:100%;min-width:0}
+.article-content .article-research h2{font-size:26px;line-height:1.4;margin:20px 0 18px}
+.article-comparison-wrap{max-width:100%;overflow-x:auto;border:1px solid #dfd3ee;border-radius:12px;margin:22px 0;background:#fff}
+.article-comparison{width:100%;border-collapse:collapse;text-align:left;line-height:1.75;font-size:16px;color:#334155}
+.article-comparison caption{padding:16px 18px;text-align:left;font-weight:700;color:#352047;background:#f7f3fc}
+.article-comparison th,.article-comparison td{padding:14px 16px;vertical-align:top;border-top:1px solid #e5dfed;overflow-wrap:anywhere;min-width:160px}
+.article-comparison thead th{background:#fbf9fe}.article-comparison tbody th{font-weight:600}
+.article-evidence-figure{margin:28px 0;max-width:100%}.article-evidence-figure picture,.article-evidence-figure img{display:block;width:100%;height:auto;border-radius:14px}
+.article-content .article-evidence-figure figcaption,.article-content .article-research-source{font-size:14px;line-height:1.75;color:#475569;margin-top:12px}
+.article-content .article-source-quote{margin:22px 0;padding:18px 22px;border-left:4px solid #6d28d9;background:#faf7fe;border-radius:0 12px 12px 0}
+.article-content .article-source-quote p{margin:0;font-size:16px;line-height:1.8}
+.article-research a{color:#6528b2;text-decoration:underline;text-underline-offset:3px}
+.article-product-example{display:grid;grid-template-columns:minmax(0,1fr) minmax(140px,210px);align-items:start;gap:24px;margin:26px 0}
+.article-product-example img{width:100%;height:auto;max-height:430px;object-fit:contain}.article-product-example figure{margin:0}
+.article-product-example figcaption{font-size:14px;line-height:1.7;color:#475569;margin-top:12px}
+.article-store-links{display:flex;flex-wrap:wrap;gap:12px 24px;line-height:1.7;font-size:16px;margin:16px 0}
+.article-comparison-wrap:focus-visible{outline:3px solid #6d28d9;outline-offset:3px}
+@media(max-width:600px){.article-product-example{grid-template-columns:1fr}.article-product-example figure{max-width:210px;margin:0 auto}.article-answer{padding:20px}.article-content .article-research h2{font-size:23px}.article-comparison th,.article-comparison td{min-width:145px;padding:12px}.article-store-links{flex-direction:column;gap:10px}.article-content .article-answer h2{font-size:22px}}
+
+@media(max-width:600px){
+.article-comparison{table-layout:fixed}.article-comparison caption{display:block;width:100%;box-sizing:border-box}
+.article-comparison,.article-comparison tbody,.article-comparison tr,.article-comparison th,.article-comparison td{display:block;width:100%;min-width:0}
+.article-comparison thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.article-comparison tbody tr+tr{border-top:2px solid #d8c9e9}
+.article-comparison tbody th{background:#f8f4fc;color:#352047;font-size:17px}
+.article-comparison td::before{content:attr(data-label);display:block;font-size:14px;font-weight:700;color:#6528b2;margin-bottom:4px}
+}
