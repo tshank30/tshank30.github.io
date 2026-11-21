@@ -1,0 +1,151 @@
+{
+  "topic": "Primary-source evidence supporting Fast Cleaner privacy articles",
+  "time_range": "Current official guidance and foundational sources",
+  "items": [
+    {
+      "id": "local-ai",
+      "title": "Core ML",
+      "url": "https://developer.apple.com/documentation/coreml/",
+      "publisher": "Apple",
+      "claim": "A model running strictly on-device does not need a network connection for inference.",
+      "quote": "removes any need for a network connection",
+      "limitation": "This describes Core ML capabilities, not proof that Fast Cleaner uses a particular framework or that its entire app is offline.",
+      "placement": "on-device-photo-cleaner.html",
+      "verified_on": "2026-11-21",
+      "source_type": "official platform documentation"
+    },
+    {
+      "id": "photo-access",
+      "title": "Photos & Privacy",
+      "url": "https://www.apple.com/legal/privacy/data/en/photos/",
+      "publisher": "Apple",
+      "claim": "Full photo access can include hidden photos even when the album is locked; selected access limits the media available to a third-party app.",
+      "quote": "including your hidden photos even if the album is locked",
+      "limitation": "Actual access depends on the permission granted. This is Apple platform guidance, not a Fast Cleaner permissions audit.",
+      "placement": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "verified_on": "2026-11-21",
+      "source_type": "official platform documentation"
+    },
+    {
+      "id": "self-reported-labels",
+      "title": "About privacy information on the App Store and the choices you have to control your data",
+      "url": "https://support.apple.com/en-us/102399",
+      "publisher": "Apple",
+      "claim": "App Store privacy information is self-reported by app developers.",
+      "quote": "the information is self-reported by the developer",
+      "limitation": "A privacy disclosure is not an independent security assessment.",
+      "placement": "blog/are-photo-cleaner-apps-safe.html",
+      "verified_on": "2026-11-21",
+      "source_type": "official platform documentation"
+    },
+    {
+      "id": "sharing-exceptions",
+      "title": "Understand app privacy & security practices with Google Play’s Data safety section",
+      "url": "https://support.google.com/googleplay/answer/11416267?hl=en",
+      "publisher": "Google",
+      "claim": "Some service-provider transfers are excluded from the Data safety definition of sharing.",
+      "quote": "when the data is shared with a developer’s service provider",
+      "limitation": "This is a disclosure definition, not proof of what a specific app sends.",
+      "placement": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "verified_on": "2026-11-21",
+      "source_type": "official platform documentation"
+    },
+    {
+      "id": "apple-deletion",
+      "title": "Delete or hide photos and videos on iPhone",
+      "url": "https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/ios",
+      "publisher": "Apple",
+      "claim": "Apple Photos normally keeps deleted items in Recently Deleted for 30 days; iCloud Photos deletion also affects devices using the same account.",
+      "quote": null,
+      "limitation": "Users can permanently delete items earlier. This is Apple Photos behavior, not a recovery guarantee for every cleaner or platform.",
+      "placement": "blog/are-photo-cleaner-apps-safe.html",
+      "verified_on": "2026-11-21",
+      "source_type": "official platform documentation"
+    },
+    {
+      "id": "privacy-report",
+      "title": "Inspecting app activity data",
+      "url": "https://developer.apple.com/documentation/network/inspecting-app-activity-data",
+      "publisher": "Apple",
+      "claim": "App activity reporting records seven days of data/resource access and contacted domains; testing should allow for delayed analytics access.",
+      "quote": null,
+      "limitation": "Domain records are not packet contents and cannot independently prove whether media was uploaded.",
+      "placement": "on-device-photo-cleaner.html",
+      "verified_on": "2026-11-21",
+      "source_type": "official platform documentation"
+    },
+    {
+      "id": "icloud-limit-exception",
+      "title": "Manage your iCloud storage on your Apple device",
+      "url": "https://support.apple.com/en-us/108922",
+      "publisher": "Apple",
+      "claim": "When the iCloud storage limit is exceeded, deleted photos and videos are immediately removed and unavailable in Recently Deleted.",
+      "quote": null,
+      "limitation": "An exception to the usual recovery period; check storage and backup state before deleting.",
+      "placement": "blog/are-photo-cleaner-apps-safe.html",
+      "verified_on": "2026-11-21",
+      "source_type": "official platform documentation"
+    },
+    {
+      "id": "store-pricing",
+      "title": "Fast Cleaner store pricing",
+      "url": "https://apps.apple.com/us/app/fast-cleaner-ai-photo-clean/id6446206167",
+      "additional_source": "https://play.google.com/store/apps/details?id=com.crocapps.fastphotocleaner",
+      "publisher": "Apple App Store and Google Play",
+      "verified_on": "2026-11-21",
+      "claim": "US iPhone listing: free download; Monthly Subscription USD 4.99; Lifetime Pro Access USD 14.99. Android app is free, confirmed by the developer in this conversation.",
+      "quote": null,
+      "limitation": "iPhone prices apply to the US storefront. Android free pricing comes from developer confirmation; no Android subscription prices are inferred.",
+      "placement": [
+        "on-device-photo-cleaner.html",
+        "blog/ai-privacy-on-device-photo-cleaner.html",
+        "blog/are-photo-cleaner-apps-safe.html"
+      ],
+      "source_type": "official app store listings"
+    },
+    {
+      "id": "android-local-ml",
+      "title": "Google ML Kit",
+      "url": "https://developers.google.com/ml-kit",
+      "publisher": "Google",
+      "claim": "ML Kit supports on-device processing on Android and iOS, including offline image processing.",
+      "quote": "ML Kit’s processing happens on-device.",
+      "verified_on": "2026-11-21",
+      "limitation": "Framework capability; does not verify that Fast Cleaner uses ML Kit.",
+      "placement": [
+        "on-device-photo-cleaner.html",
+        "blog/ai-privacy-on-device-photo-cleaner.html"
+      ]
+    },
+    {
+      "id": "android-selected-photos",
+      "title": "Grant partial access to photos and videos",
+      "url": "https://developer.android.com/about/versions/14/changes/partial-photo-video-access",
+      "publisher": "Google",
+      "claim": "Android 14 introduced selected photo access; availability and behavior depend on app targeting and implementation.",
+      "quote": "specific images and videos in their library",
+      "verified_on": "2026-11-21",
+      "limitation": "Not a guarantee of permission behavior for every app or Android device.",
+      "placement": "blog/are-photo-cleaner-apps-safe.html"
+    },
+    {
+      "id": "android-free",
+      "title": "Developer pricing confirmation",
+      "source_type": "User confirmation in conversation",
+      "claim": "Fast Cleaner Android app is free.",
+      "verified_on": "2026-11-21",
+      "quote": null,
+      "url": "https://play.google.com/store/apps/details?id=com.crocapps.fastphotocleaner",
+      "limitation": "Price confirmation is from the developer; Google Play identifies the app and provides its install link.",
+      "placement": [
+        "on-device-photo-cleaner.html",
+        "blog/ai-privacy-on-device-photo-cleaner.html",
+        "blog/are-photo-cleaner-apps-safe.html"
+      ]
+    }
+  ],
+  "uncertain": [
+    "Fast Cleaner framework choices and network behavior were not independently tested.",
+    "No claim of citation-ranking improvement or guaranteed AI recommendation is established by this research."
+  ]
+}
