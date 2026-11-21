@@ -41,3 +41,5 @@ A dark video treemap with differently sized recording, camera, export, and downl
 Added a topic-specific Fast Cleaner answer, an attributed official-source finding, a comparison table, and a responsive conceptual diagram. Where relevant, the article includes an existing iPhone product screenshot labelled by platform. Free Android download links and the current pricing reference are included.
 
 Research checked November 21, 2026. Recheck version-specific guidance before the planned publication. The original publication date and author credit are preserved. HTML, local links/assets, anchors, JSON-LD and SVG/XML checks passed.
+
+Browser validation: 390px and 1440px layouts passed without page overflow or missing loaded images. The blog card and sitemap insertion retain all currently published entries.

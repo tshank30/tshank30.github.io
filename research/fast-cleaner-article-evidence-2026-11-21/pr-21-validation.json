@@ -80,5 +80,32 @@
       "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
     }
   ],
-  "browser_checks": "Pending responsive validation before push."
+  "browser_checks": [
+    {
+      "file": "blog/find-large-videos-phone-storage.html",
+      "root": "/tmp/fast-cleaner-research-pr-21",
+      "pr": 21,
+      "title": "How to Find Large Videos Taking Up Space on Your Phone | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6561,
+      "heading": 99.734375,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/find-large-videos-phone-storage.html",
+      "root": "/tmp/fast-cleaner-research-pr-21",
+      "pr": 21,
+      "title": "How to Find Large Videos Taking Up Space on Your Phone | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4643,
+      "heading": 100.21875,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
 }
