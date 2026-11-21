@@ -36,3 +36,9 @@ HTML structure, local assets and links, section IDs, schema JSON, dates, sitemap
 ## Cover artwork
 
 A physical memory chip and a cloud, separated to show two different storage capacities. The cover uses an original topic-specific vector composition, with descriptive article, blog-card, and Open Graph alternative text. It is an illustration rather than a screenshot or measured test result.
+
+## Research and comparison update
+
+Added a topic-specific Fast Cleaner answer, an attributed official-source finding, a comparison table, and a responsive conceptual diagram. Where relevant, the article includes an existing iPhone product screenshot labelled by platform. Free Android download links and the current pricing reference are included.
+
+Research checked November 21, 2026. Recheck version-specific guidance before the planned publication. The original publication date and author credit are preserved. HTML, local links/assets, anchors, JSON-LD and SVG/XML checks passed.
