@@ -1,0 +1,31 @@
+fields:
+  evidence:
+    - name: supported_claim
+      description: "Bounded factual statement"
+      detail_level: detailed
+    - name: quote
+      description: "Short excerpt; null when paraphrased"
+      detail_level: detailed
+    - name: primary_source_url
+      description: "Official documentation URL"
+      detail_level: detailed
+    - name: claim_scope
+      description: "Separate platform facts, developer disclosures and measured results"
+      detail_level: detailed
+    - name: comparison
+      description: "Task-based choices without unsupported competitor ratings"
+      detail_level: detailed
+    - name: visual
+      description: "Conceptual diagram or existing product screenshot"
+      detail_level: detailed
+    - name: author
+      description: "Existing byline and structured author preserved"
+      detail_level: detailed
+    - name: publication_state
+      description: "Published or retained on a scheduled PR branch"
+      detail_level: detailed
+    - name: verification
+      description: "HTML, sources, assets, dates and browser checks"
+      detail_level: detailed
+uncertain:
+  - "Independent app performance and security measurements"
