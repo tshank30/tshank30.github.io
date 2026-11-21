@@ -1,0 +1,351 @@
+{
+  "as_of": "2026-11-21",
+  "scope": "11 published blog articles and 8 scheduled PR articles",
+  "time_range": "Current official guidance and foundational sources",
+  "articles": [
+    {
+      "article": "blog/compress-videos-iphone.html",
+      "published": true,
+      "question": "Can Fast Cleaner help make an iPhone video smaller?",
+      "source": {
+        "publisher": "Apple",
+        "title": "Using HEIF or HEVC media",
+        "url": "https://support.apple.com/en-us/116944",
+        "quote": "more broadly compatible",
+        "fact": "Apple uses this description for older JPEG/H.264 formats. File size is only one choice: test the exported video in the app or device that will receive it.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Compress an existing video or change future recordings?",
+      "diagram": "assets/article-evidence/video.svg",
+      "product_screenshot": "video-compression.webp",
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/delete-duplicate-photos-iphone.html",
+      "published": true,
+      "question": "Should I use Apple Photos or Fast Cleaner for duplicate photos?",
+      "source": {
+        "publisher": "Apple",
+        "title": "Merge duplicate photos and videos",
+        "url": "https://support.apple.com/guide/iphone/merge-duplicate-photos-and-videos-iph1978d9c23/ios",
+        "quote": null,
+        "fact": "Apple documents a built-in merge workflow for identified duplicates. This is a useful starting point; it is not a speed or accuracy comparison with third-party apps.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Apple Photos, Fast Cleaner, or manual review?",
+      "diagram": "assets/article-evidence/duplicates.svg",
+      "product_screenshot": "similar-photos.webp",
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/how-to-free-up-iphone-storage.html",
+      "published": true,
+      "question": "Where does Fast Cleaner fit in an iPhone storage cleanup?",
+      "source": {
+        "publisher": "Apple",
+        "title": "How to check storage on iPhone and iPad",
+        "url": "https://support.apple.com/en-us/108429",
+        "quote": "keeps its documents and data",
+        "fact": "Apple describes offloading an app this way. Deleting the app is a different action that also removes related data.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Choose the cleanup method that matches the category",
+      "diagram": "assets/article-evidence/cleanup.svg",
+      "product_screenshot": "storage-overview.webp",
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/iphone-storage-full.html",
+      "published": true,
+      "question": "Can Fast Cleaner fix an iPhone storage-full warning?",
+      "source": {
+        "publisher": "Apple",
+        "title": "Device storage versus iCloud storage",
+        "url": "https://support.apple.com/en-gb/102670",
+        "quote": "set amount of storage",
+        "fact": "Apple describes the capacity supplied with a device in these terms. More cloud space does not add physical storage chips to the phone.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Match the warning to the capacity",
+      "diagram": "assets/article-evidence/capacity.svg",
+      "product_screenshot": "storage-overview.webp",
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/duplicate-photos-not-showing-iphone.html",
+      "published": true,
+      "question": "Can Fast Cleaner help when iPhone Duplicates is missing?",
+      "source": {
+        "publisher": "Apple",
+        "title": "If you cannot find the Duplicates album",
+        "url": "https://support.apple.com/en-la/102260",
+        "quote": "locked and connected to power",
+        "fact": "Apple lists these prerequisites for duplicate detection and says completion can take days. Another app’s matching speed cannot be inferred from Apple’s instructions.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Missing Apple collection or empty cleaner results?",
+      "diagram": "assets/article-evidence/duplicates.svg",
+      "product_screenshot": "similar-photos.webp",
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/iphone-storage-full-after-deleting-photos.html",
+      "published": true,
+      "question": "Why can storage stay full after a Fast Cleaner cleanup?",
+      "source": {
+        "publisher": "Apple",
+        "title": "Manage your photo and video storage",
+        "url": "https://support.apple.com/en-us/105061",
+        "quote": "space-saving copies",
+        "fact": "Apple uses this term for local versions kept with Optimize Storage. A cloud-original size and the current device footprint can differ.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "What changed after deletion?",
+      "diagram": "assets/article-evidence/cleanup.svg",
+      "product_screenshot": "storage-overview.webp",
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/cleanup-before-buying-new-phone.html",
+      "published": true,
+      "question": "Can Fast Cleaner help me keep my current phone longer?",
+      "source": {
+        "publisher": "Apple",
+        "title": "If your iPhone or iPad is running slow",
+        "url": "https://support.apple.com/en-us/102598",
+        "quote": "at least 1 GB",
+        "fact": "Apple recommends this much free space to avoid slowdowns, while identifying other possible causes. This is troubleshooting guidance, not a Fast Cleaner performance result.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Cleanup, service, cloud storage, or replacement?",
+      "diagram": "assets/article-evidence/decisions.svg",
+      "product_screenshot": null,
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/rising-phone-cloud-storage-costs.html",
+      "published": true,
+      "question": "Can Fast Cleaner reduce my cloud storage bill?",
+      "source": {
+        "publisher": "Apple",
+        "title": "iCloud+ plans and pricing",
+        "url": "https://support.apple.com/en-us/108047",
+        "quote": "you're billed monthly",
+        "fact": "Apple describes iCloud+ billing this way. Recheck your country’s current plan and whether all stored data fits before changing tiers.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Compare media cleanup with cloud capacity",
+      "diagram": "assets/article-evidence/capacity.svg",
+      "product_screenshot": null,
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/should-i-buy-a-new-phone.html",
+      "published": true,
+      "question": "Should I try Fast Cleaner before buying a new phone?",
+      "source": {
+        "publisher": "Google",
+        "title": "Pixel software update support",
+        "url": "https://support.google.com/pixelphone/answer/4457705?hl=en",
+        "quote": "security updates",
+        "fact": "Google publishes model-specific support periods for Pixel phones. Other Android owners should check their own manufacturer rather than assume one universal support window.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Keep, clean, repair, or replace?",
+      "diagram": "assets/article-evidence/decisions.svg",
+      "product_screenshot": null,
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "published": true,
+      "question": null,
+      "source": {
+        "publisher": "Google",
+        "title": "ML Kit",
+        "url": "https://developers.google.com/ml-kit",
+        "quote": null,
+        "fact": "Google’s ML Kit is an example of on-device machine learning. Platform capability is not an independent audit of an app.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Local analysis, cloud analysis, and separate analytics",
+      "diagram": "assets/article-evidence/privacy.svg",
+      "product_screenshot": null,
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/are-photo-cleaner-apps-safe.html",
+      "published": true,
+      "question": null,
+      "source": {
+        "publisher": "Apple",
+        "title": "App privacy information",
+        "url": "https://support.apple.com/en-us/102399",
+        "quote": null,
+        "fact": "Apple explains that developers report App Store privacy information. Use it together with the policy and the permissions you grant.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Compare evidence before choosing a photo cleaner",
+      "diagram": "assets/article-evidence/privacy.svg",
+      "product_screenshot": null,
+      "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+    },
+    {
+      "article": "blog/iphone-storage-vs-icloud-storage.html",
+      "published": false,
+      "pr": 18,
+      "branch": "articles/2026-11-23-iphone-storage-vs-icloud-storage",
+      "question": "Does Fast Cleaner free iPhone storage or add iCloud storage?",
+      "source": {
+        "publisher": "Apple",
+        "title": "Device storage versus iCloud storage",
+        "url": "https://support.apple.com/en-gb/102670",
+        "quote": "set amount of storage",
+        "fact": "Apple uses this description for device capacity. Keep local cleanup and cloud-plan decisions separate.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "A cleaner, optimization, or a cloud plan?",
+      "diagram": "assets/article-evidence/capacity.svg",
+      "product_screenshot": null,
+      "claim_scope": "Platform facts and developer disclosures are distinct; no measured app benchmark or independent audit is claimed."
+    },
+    {
+      "article": "blog/google-photos-free-up-space-vs-delete.html",
+      "published": false,
+      "pr": 19,
+      "branch": "articles/2026-11-26-google-photos-free-up-space-vs-delete",
+      "question": "How is Fast Cleaner different from Google Photos Free up space?",
+      "source": {
+        "publisher": "Google",
+        "title": "Free up space on your Android device",
+        "url": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DAndroid",
+        "quote": "This feature deletes photos",
+        "fact": "Google’s warning refers to device copies. Its guide also explains that removed copies are unavailable in the built-in gallery and while offline.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Three different photo cleanup actions",
+      "diagram": "assets/article-evidence/sync.svg",
+      "product_screenshot": null,
+      "claim_scope": "Platform facts and developer disclosures are distinct; no measured app benchmark or independent audit is claimed."
+    },
+    {
+      "article": "blog/duplicate-vs-similar-photos.html",
+      "published": false,
+      "pr": 20,
+      "branch": "articles/2026-11-29-duplicate-vs-similar-photos",
+      "question": "Does Fast Cleaner treat similar photos as files I should delete?",
+      "source": {
+        "publisher": "Apple",
+        "title": "Merge duplicate photos and videos",
+        "url": "https://support.apple.com/guide/iphone/merge-duplicate-photos-and-videos-iph1978d9c23/ios",
+        "quote": null,
+        "fact": "Apple’s Duplicates feature offers a merge workflow for identified groups. A cleaner’s similar-image suggestions are a separate reason to inspect the content.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Copies, similar moments, and edits",
+      "diagram": "assets/article-evidence/duplicates.svg",
+      "product_screenshot": "similar-photos.webp",
+      "claim_scope": "Platform facts and developer disclosures are distinct; no measured app benchmark or independent audit is claimed."
+    },
+    {
+      "article": "blog/find-large-videos-phone-storage.html",
+      "published": false,
+      "pr": 21,
+      "branch": "articles/2026-12-02-find-large-videos-phone-storage",
+      "question": "Can Fast Cleaner find large videos on Android and iPhone?",
+      "source": {
+        "publisher": "Apple",
+        "title": "Using HEIF or HEVC media",
+        "url": "https://support.apple.com/en-us/116944",
+        "quote": "more broadly compatible",
+        "fact": "Apple uses this wording for older formats such as H.264. Size and compatibility are separate checks when you choose a smaller copy.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Remove, compress, or archive a large video?",
+      "diagram": "assets/article-evidence/video.svg",
+      "product_screenshot": "video-compression.webp",
+      "claim_scope": "Platform facts and developer disclosures are distinct; no measured app benchmark or independent audit is claimed."
+    },
+    {
+      "article": "blog/video-compression-quality-comparison.html",
+      "published": false,
+      "pr": 22,
+      "branch": "articles/2026-12-05-video-compression-quality-comparison",
+      "question": "How should I compare a video compressed with Fast Cleaner?",
+      "source": {
+        "publisher": "Google",
+        "title": "Choose your backup quality",
+        "url": "https://support.google.com/photos/answer/6220791?hl=en",
+        "quote": "slightly reduced quality",
+        "fact": "Google uses this phrase for Storage saver backups. A backup setting or smaller file should not be assumed to preserve an identical original.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "A useful before-and-after comparison",
+      "diagram": "assets/article-evidence/video.svg",
+      "product_screenshot": "video-compression.webp",
+      "claim_scope": "Platform facts and developer disclosures are distinct; no measured app benchmark or independent audit is claimed."
+    },
+    {
+      "article": "blog/can-photo-cleaner-see-private-photos.html",
+      "published": false,
+      "pr": 23,
+      "branch": "articles/2026-12-08-can-photo-cleaner-see-private-photos",
+      "question": "Can Fast Cleaner access photos I consider private?",
+      "source": {
+        "publisher": "Apple",
+        "title": "Photos and Privacy",
+        "url": "https://www.apple.com/legal/privacy/data/en/photos/",
+        "quote": null,
+        "fact": "Apple says full photo access can include hidden photos even when the album is locked. Locking a collection is not a substitute for checking third-party access.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Permission, local processing, and uploads are different checks",
+      "diagram": "assets/article-evidence/privacy.svg",
+      "product_screenshot": null,
+      "claim_scope": "Platform facts and developer disclosures are distinct; no measured app benchmark or independent audit is claimed."
+    },
+    {
+      "article": "blog/on-device-ai-photo-location-metadata.html",
+      "published": false,
+      "pr": 24,
+      "branch": "articles/2026-12-11-on-device-ai-photo-location-metadata",
+      "question": "Does using Fast Cleaner automatically remove photo locations?",
+      "source": {
+        "publisher": "Google",
+        "title": "Understand, find and edit photo locations",
+        "url": "https://support.google.com/photos/answer/6153599?hl=en",
+        "quote": "estimates your location",
+        "fact": "Google documents location estimates based on landmarks and other photos. Removing one metadata field does not remove visual clues or every service-level location record.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Three separate places location information can appear",
+      "diagram": "assets/article-evidence/metadata.svg",
+      "product_screenshot": null,
+      "claim_scope": "Platform facts and developer disclosures are distinct; no measured app benchmark or independent audit is claimed."
+    },
+    {
+      "article": "blog/free-up-android-storage-without-deleting-photos.html",
+      "published": false,
+      "pr": 25,
+      "branch": "articles/2026-12-14-free-up-android-storage-without-deleting-photos",
+      "question": "Can free Fast Cleaner help clear Android storage while I keep important photos?",
+      "source": {
+        "publisher": "Google",
+        "title": "Free up storage on your Android device",
+        "url": "https://support.google.com/android/answer/7431795?hl=en",
+        "quote": "Deletes temporary data",
+        "fact": "Google describes Clear cache this way. Its guide distinguishes this from Clear storage, which deletes app data.",
+        "verified_on": "2026-11-21"
+      },
+      "comparison": "Android cleanup choices before deleting important photos",
+      "diagram": "assets/article-evidence/android.svg",
+      "product_screenshot": null,
+      "claim_scope": "Platform facts and developer disclosures are distinct; no measured app benchmark or independent audit is claimed."
+    }
+  ],
+  "limitations": [
+    "AI citations or download recommendations are not guaranteed.",
+    "No app benchmark, independent security audit, Android compression parity, or invented testimonial is claimed.",
+    "Scheduled articles remain on their respective PR branches."
+  ]
+}

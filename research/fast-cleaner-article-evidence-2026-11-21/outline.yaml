@@ -1,0 +1,46 @@
+topic: "Research-backed Fast Cleaner article answers and comparisons"
+verified_on: "2026-11-21"
+time_range: "Current official guidance and foundational sources"
+items:
+  - name: "compress-videos-iphone"
+    status: published
+  - name: "delete-duplicate-photos-iphone"
+    status: published
+  - name: "how-to-free-up-iphone-storage"
+    status: published
+  - name: "iphone-storage-full"
+    status: published
+  - name: "duplicate-photos-not-showing-iphone"
+    status: published
+  - name: "iphone-storage-full-after-deleting-photos"
+    status: published
+  - name: "cleanup-before-buying-new-phone"
+    status: published
+  - name: "rising-phone-cloud-storage-costs"
+    status: published
+  - name: "should-i-buy-a-new-phone"
+    status: published
+  - name: "ai-privacy-on-device-photo-cleaner"
+    status: published
+  - name: "are-photo-cleaner-apps-safe"
+    status: published
+  - name: "iphone-storage-vs-icloud-storage"
+    status: scheduled
+  - name: "google-photos-free-up-space-vs-delete"
+    status: scheduled
+  - name: "duplicate-vs-similar-photos"
+    status: scheduled
+  - name: "find-large-videos-phone-storage"
+    status: scheduled
+  - name: "video-compression-quality-comparison"
+    status: scheduled
+  - name: "can-photo-cleaner-see-private-photos"
+    status: scheduled
+  - name: "on-device-ai-photo-location-metadata"
+    status: scheduled
+  - name: "free-up-android-storage-without-deleting-photos"
+    status: scheduled
+execution:
+  batch_size: 1
+  items_per_agent: 19
+  output_dir: .
