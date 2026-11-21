@@ -1,0 +1,84 @@
+{
+  "pr": 20,
+  "planned_publication": "2026-11-29T10:00:00+05:30",
+  "article": {
+    "article": "blog/duplicate-vs-similar-photos.html",
+    "published": false,
+    "question": "Does Fast Cleaner treat similar photos as files I should delete?",
+    "source": {
+      "publisher": "Apple",
+      "title": "Merge duplicate photos and videos",
+      "url": "https://support.apple.com/guide/iphone/merge-duplicate-photos-and-videos-iph1978d9c23/ios",
+      "quote": null,
+      "fact": "Apple’s Duplicates feature offers a merge workflow for identified groups. A cleaner’s similar-image suggestions are a separate reason to inspect the content.",
+      "verified_on": "2026-11-21"
+    },
+    "comparison": "Copies, similar moments, and edits",
+    "diagram": "assets/article-evidence/duplicates.svg",
+    "product_screenshot": "similar-photos.webp",
+    "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+  },
+  "static_checks": [
+    {
+      "article": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "word_count": 1940,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/are-photo-cleaner-apps-safe.html",
+      "word_count": 2715,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/cleanup-before-buying-new-phone.html",
+      "word_count": 2256,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/compress-videos-iphone.html",
+      "word_count": 1293,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/delete-duplicate-photos-iphone.html",
+      "word_count": 1160,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/duplicate-photos-not-showing-iphone.html",
+      "word_count": 1346,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/duplicate-vs-similar-photos.html",
+      "word_count": 1283,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/how-to-free-up-iphone-storage.html",
+      "word_count": 1249,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full-after-deleting-photos.html",
+      "word_count": 1426,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full.html",
+      "word_count": 1235,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/rising-phone-cloud-storage-costs.html",
+      "word_count": 2255,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/should-i-buy-a-new-phone.html",
+      "word_count": 2092,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    }
+  ],
+  "browser_checks": "Pending responsive validation before push."
+}
