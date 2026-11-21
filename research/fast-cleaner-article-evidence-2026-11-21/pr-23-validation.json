@@ -80,5 +80,32 @@
       "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
     }
   ],
-  "browser_checks": "Pending responsive validation before push."
+  "browser_checks": [
+    {
+      "file": "blog/can-photo-cleaner-see-private-photos.html",
+      "root": "/tmp/fast-cleaner-research-pr-23",
+      "pr": 23,
+      "title": "Can a Photo Cleaner See Your Private Photos? | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6506,
+      "heading": 99.546875,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/can-photo-cleaner-see-private-photos.html",
+      "root": "/tmp/fast-cleaner-research-pr-23",
+      "pr": 23,
+      "title": "Can a Photo Cleaner See Your Private Photos? | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4563,
+      "heading": 99.921875,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
 }
