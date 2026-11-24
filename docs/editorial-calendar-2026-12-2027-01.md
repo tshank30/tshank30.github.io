@@ -6,16 +6,16 @@ These are manual release plans, not scheduled deployments. Keep each draft PR un
 
 | Planned date | Platform | Article or update | Branch / PR |
 |---|---|---|---|
-| 2026-12-16 | Both | Shared navigation, product links and this calendar | [`site/2026-12-16-platform-navigation-and-calendar`](https://github.com/tshank30/tshank30.github.io/tree/site/2026-12-16-platform-navigation-and-calendar) |
-| 2026-12-17 | iPhone | Cleanup App Review: Pricing, Privacy, and When Fast Cleaner Is an Alternative | [`articles/2026-12-17-cleanup-app-review`](https://github.com/tshank30/tshank30.github.io/tree/articles/2026-12-17-cleanup-app-review) |
-| 2026-12-20 | Android | How to Remove Duplicate Photos on Android | [`articles/2026-12-20-remove-duplicate-photos-android`](https://github.com/tshank30/tshank30.github.io/tree/articles/2026-12-20-remove-duplicate-photos-android) |
-| 2026-12-23 | iPhone | Cleaner Guru vs Fast Cleaner: Cost, Privacy, and Cleanup | [`articles/2026-12-23-cleaner-guru-vs-fast-cleaner`](https://github.com/tshank30/tshank30.github.io/tree/articles/2026-12-23-cleaner-guru-vs-fast-cleaner) |
-| 2026-12-26 | Android | Free Android Cleaner Apps: Choose the Right Cleanup | [`articles/2026-12-26-best-free-android-cleaner-apps`](https://github.com/tshank30/tshank30.github.io/tree/articles/2026-12-26-best-free-android-cleaner-apps) |
-| 2026-12-29 | iPhone | Free iPhone Cleaner Apps: What Can You Clean? | [`articles/2026-12-29-best-free-iphone-cleaner-apps`](https://github.com/tshank30/tshank30.github.io/tree/articles/2026-12-29-best-free-iphone-cleaner-apps) |
-| 2027-01-01 | Android | Files by Google vs Fast Cleaner for Android | [`articles/2027-01-01-files-by-google-vs-fast-cleaner`](https://github.com/tshank30/tshank30.github.io/tree/articles/2027-01-01-files-by-google-vs-fast-cleaner) |
-| 2027-01-04 | iPhone | Cleaner Guru Alternatives: Free and Lifetime Options | [`articles/2027-01-04-cleaner-guru-alternatives`](https://github.com/tshank30/tshank30.github.io/tree/articles/2027-01-04-cleaner-guru-alternatives) |
-| 2027-01-07 | iPhone | Update: Apple Photos vs Fast Cleaner: Duplicate Photo Review | [`articles/2027-01-07-delete-duplicate-photos-iphone`](https://github.com/tshank30/tshank30.github.io/tree/articles/2027-01-07-delete-duplicate-photos-iphone) |
-| 2027-01-10 | iPhone | Update: iPhone Video Compressor Apps and Quality Checks | [`articles/2027-01-10-compress-videos-iphone`](https://github.com/tshank30/tshank30.github.io/tree/articles/2027-01-10-compress-videos-iphone) |
+| 2026-12-16 | Both | Shared navigation, product links and this calendar | [PR #26](https://github.com/tshank30/tshank30.github.io/pull/26) · `site/2026-12-16-platform-navigation-and-calendar` |
+| 2026-12-17 | iPhone | Cleanup App Review: Pricing, Privacy, and When Fast Cleaner Is an Alternative | [PR #27](https://github.com/tshank30/tshank30.github.io/pull/27) · `articles/2026-12-17-cleanup-app-review` |
+| 2026-12-20 | Android | How to Remove Duplicate Photos on Android | [PR #28](https://github.com/tshank30/tshank30.github.io/pull/28) · `articles/2026-12-20-remove-duplicate-photos-android` |
+| 2026-12-23 | iPhone | Cleaner Guru vs Fast Cleaner: Cost, Privacy, and Cleanup | [PR #29](https://github.com/tshank30/tshank30.github.io/pull/29) · `articles/2026-12-23-cleaner-guru-vs-fast-cleaner` |
+| 2026-12-26 | Android | Free Android Cleaner Apps: Choose the Right Cleanup | [PR #30](https://github.com/tshank30/tshank30.github.io/pull/30) · `articles/2026-12-26-best-free-android-cleaner-apps` |
+| 2026-12-29 | iPhone | Free iPhone Cleaner Apps: What Can You Clean? | [PR #31](https://github.com/tshank30/tshank30.github.io/pull/31) · `articles/2026-12-29-best-free-iphone-cleaner-apps` |
+| 2027-01-01 | Android | Files by Google vs Fast Cleaner for Android | [PR #32](https://github.com/tshank30/tshank30.github.io/pull/32) · `articles/2027-01-01-files-by-google-vs-fast-cleaner` |
+| 2027-01-04 | iPhone | Cleaner Guru Alternatives: Free and Lifetime Options | [PR #33](https://github.com/tshank30/tshank30.github.io/pull/33) · `articles/2027-01-04-cleaner-guru-alternatives` |
+| 2027-01-07 | iPhone | Update: Apple Photos vs Fast Cleaner: Duplicate Photo Review | [PR #34](https://github.com/tshank30/tshank30.github.io/pull/34) · `articles/2027-01-07-delete-duplicate-photos-iphone` |
+| 2027-01-10 | iPhone | Update: iPhone Video Compressor Apps and Quality Checks | [PR #35](https://github.com/tshank30/tshank30.github.io/pull/35) · `articles/2027-01-10-compress-videos-iphone` |
 
 ## Review before release
 
