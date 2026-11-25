@@ -1,0 +1,111 @@
+{
+  "pr": 19,
+  "planned_publication": "2026-11-26T10:00:00+05:30",
+  "article": {
+    "article": "blog/google-photos-free-up-space-vs-delete.html",
+    "published": false,
+    "question": "How is Fast Cleaner different from Google Photos Free up space?",
+    "source": {
+      "publisher": "Google",
+      "title": "Free up space on your Android device",
+      "url": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DAndroid",
+      "quote": "This feature deletes photos",
+      "fact": "Google’s warning refers to device copies. Its guide also explains that removed copies are unavailable in the built-in gallery and while offline.",
+      "verified_on": "2026-11-21"
+    },
+    "comparison": "Three different photo cleanup actions",
+    "diagram": "assets/article-evidence/sync.svg",
+    "product_screenshot": null,
+    "claim_scope": "Official guidance supports platform facts. Fast Cleaner descriptions rely on its developer disclosures and existing store/product assets; no independent performance or security test is claimed."
+  },
+  "static_checks": [
+    {
+      "article": "blog/ai-privacy-on-device-photo-cleaner.html",
+      "word_count": 1940,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/are-photo-cleaner-apps-safe.html",
+      "word_count": 2715,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/cleanup-before-buying-new-phone.html",
+      "word_count": 2256,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/compress-videos-iphone.html",
+      "word_count": 1293,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/delete-duplicate-photos-iphone.html",
+      "word_count": 1160,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/duplicate-photos-not-showing-iphone.html",
+      "word_count": 1346,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/google-photos-free-up-space-vs-delete.html",
+      "word_count": 1343,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/how-to-free-up-iphone-storage.html",
+      "word_count": 1249,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full-after-deleting-photos.html",
+      "word_count": 1426,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/iphone-storage-full.html",
+      "word_count": 1235,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/rising-phone-cloud-storage-costs.html",
+      "word_count": 2255,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    },
+    {
+      "article": "blog/should-i-buy-a-new-phone.html",
+      "word_count": 2092,
+      "validation": "HTML nesting, single H1, anchors, local links/assets, JSON-LD, image alt text and SVG passed"
+    }
+  ],
+  "browser_checks": [
+    {
+      "file": "blog/google-photos-free-up-space-vs-delete.html",
+      "root": "/tmp/fast-cleaner-research-pr-19",
+      "pr": 19,
+      "title": "Google Photos “Free Up Space” vs. Delete: What’s the Difference? | Fast Cleaner",
+      "width": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "scrollY": 6381,
+      "heading": 100.03125,
+      "missingImages": [],
+      "comparisons": 1
+    },
+    {
+      "file": "blog/google-photos-free-up-space-vs-delete.html",
+      "root": "/tmp/fast-cleaner-research-pr-19",
+      "pr": 19,
+      "title": "Google Photos “Free Up Space” vs. Delete: What’s the Difference? | Fast Cleaner",
+      "width": 1440,
+      "docWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollY": 4449,
+      "heading": 99.8125,
+      "missingImages": [],
+      "comparisons": 1
+    }
+  ]
+}
